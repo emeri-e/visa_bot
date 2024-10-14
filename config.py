@@ -18,5 +18,4 @@ class BaseConfig:
     tcaptcha_apikey = config('TCAPTCHA_APIKEY')
 
      
-
 base = BaseConfig()
