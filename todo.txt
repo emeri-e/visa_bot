@@ -1,0 +1,4 @@
+captcha.py:
+    line 30: captcha target issue
+    line 43: valid images issue
+    line 79: trueCaptcha api error
