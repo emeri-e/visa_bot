@@ -40,7 +40,7 @@ def get_captcha_data(session, captcha_url):
     }
 
 def get_captcha_images(soup):
-    #TODO: this fetches all available images. instead of the visible 9 images
+    # TODO: this fetches all available images. instead of the visible 9 images
     images = soup.find_all('img', class_='captcha-img')
     captcha_images = []
 
@@ -76,7 +76,7 @@ def pick_images(target_number, captcha_images):
             "data":img['image']
         }
 
-        #TODO: this aways returns 503: "name \'resp\' is not defined"
+        # TODO: this aways returns 503: "name \'resp\' is not defined"
         res = requests.post(base.tcaptcha_url, data=payload)
         if res.status_code == 200:
             text = res.json()['result']

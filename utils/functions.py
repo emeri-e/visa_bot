@@ -23,5 +23,3 @@ def login(username, password):
     captcha = solve_captcha(captcha_data, session)
 
     # proceed to login with captcha and return session
-
-

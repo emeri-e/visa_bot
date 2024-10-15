@@ -13,7 +13,7 @@ class BaseConfig:
     proxy = f'http://{proxy_user}:{proxy_password}@{proxy_ip}:{proxy_port}'
 
     # true captcha data
-    tcaptcha_url = 'https://api.apitruecaptcha.org/one/gettext'   
+    tcaptcha_url = 'https://api.apitruecaptcha.org/one/gettext'
     tcaptcha_username = config('TCAPTCHA_USERNAME')
     tcaptcha_apikey = config('TCAPTCHA_APIKEY')
 
