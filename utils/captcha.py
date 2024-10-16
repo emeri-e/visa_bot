@@ -7,16 +7,19 @@ def get_captcha_url(page: str):
     soup = BeautifulSoup(page, "html.parser")
 
     script_text = soup.find('script', text=re.compile(r'VerifyRegister')).string
+    captcha_id = soup.find('input', {'id': 'CaptchaId'})['value']
+    script_data = soup.find('input', {'id': 'ScriptData'})['value']
 
     match = re.search(r"iframeOpenUrl\s*=\s*'([^']+)'", script_text)
     
-    if match:
+    if match and captcha_id:
         captcha_url = match.group(1)
         captcha_url = f"https://ita-pak.blsinternational.com{captcha_url}"
     
-        return captcha_url
+        # return captcha_url
+        return {'captcha_id':captcha_id, 'captcha_url': captcha_url, 'script_data': script_data}
     
-    return None
+    return {}
 
 def get_captcha_data(session, captcha_url):
     response = session.get(captcha_url)
@@ -51,12 +54,14 @@ def get_captcha_images(soup):
             'id': img_id,
             'image': img_base64
         })
-    
     return captcha_images
 
 def fetch_captcha(page, session):    
-    captcha_url = get_captcha_url(page)   
-    captcha_data = get_captcha_data(session, captcha_url)
+    captcha_data = get_captcha_url(page)
+
+    captcha_url = captcha_data['captcha_url']   
+    x = get_captcha_data(session, captcha_url)
+    captcha_data.update(**x)
 
     captcha_page = session.get(captcha_url)
     soup = BeautifulSoup(captcha_page.text, "html.parser")

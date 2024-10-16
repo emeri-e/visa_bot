@@ -2,6 +2,6 @@
 # The idea is that the user provide all the necessary details before running the app.
 
 USER_CREDENTIALS = {
-    'username': '',
-    'password': ''
+    'username': 'fyb',
+    'password': 'cvh'
 }
