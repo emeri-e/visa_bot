@@ -10,6 +10,7 @@ def create_session():
         'http': proxy,
         'https': proxy
     }
+    session.trust_env = False
     return session
 
 def login(username, password):

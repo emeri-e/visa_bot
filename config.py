@@ -1,3 +1,4 @@
+import os
 from decouple import config
 
 class BaseConfig:
@@ -16,6 +17,8 @@ class BaseConfig:
     tcaptcha_url = 'https://api.apitruecaptcha.org/one/gettext'
     tcaptcha_username = config('TCAPTCHA_USERNAME')
     tcaptcha_apikey = config('TCAPTCHA_APIKEY')
+
+
 
      
 base = BaseConfig()

@@ -2,6 +2,14 @@
 # The idea is that the user provide all the necessary details before running the app.
 
 USER_CREDENTIALS = {
-    'username': '',
-    'password': ''
+    'username': 'username',
+    'password': 'password'
+}
+
+AVAILABILITY_FIELDS = {
+    'category': '',
+    'location': '',
+    'visa_type': '',
+    'visa_subtype': '',
+    'appointment_for': ''
 }
