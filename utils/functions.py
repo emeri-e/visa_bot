@@ -2,8 +2,13 @@ import requests
 
 from utils.captcha import fetch_captcha, solve_captcha
 from config import base
+from utils.models import Browser
 
-def create_session():
+def create_session(with_browser=True):
+
+    if with_browser:
+        return Browser(proxy={'host': base.proxy_ip, 'port': base.proxy_port, 'username': base.proxy_user, 'password': base.proxy_password})
+    
     session = requests.Session()
     proxy = base.proxy
     session.proxies = {

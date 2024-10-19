@@ -15,7 +15,9 @@ class Page:
         this will also help in unit testing the application page by page.
     '''
     
-    url = ''
+    def __init__(self) -> None:
+        self.url = ''
+        self.session = None
     
     def process(self, context: dict) -> dict:
         raise NotImplementedError

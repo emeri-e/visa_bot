@@ -2,6 +2,11 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from config import base
+from utils.models import Browser
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait as WDW
+from selenium.webdriver.common.by import By
+
 
 def get_captcha_url(page: str):
     soup = BeautifulSoup(page, "html.parser")
@@ -21,7 +26,43 @@ def get_captcha_url(page: str):
     
     return {}
 
-def get_captcha_data(session, captcha_url):
+
+def get_captcha_data(session, captcha_url=None):
+    if isinstance(session, Browser):
+        try:
+            WDW(session, 10).until(
+                EC.presence_of_all_elements_located((By.CLASS_NAME, 'box-label'))
+            )
+            
+            target_divs = session.driver.find_elements(By.CLASS_NAME, 'box-label')
+            visible_targets = [div.text.split(' ')[-1] for div in target_divs if div.is_displayed()]
+            target_number = visible_targets[0] if visible_targets else None
+            
+            # Fetch visible captcha images
+            WDW(session, 10).until(
+                EC.presence_of_all_elements_located((By.CLASS_NAME, 'captcha-img'))
+            )
+            image_divs = session.driver.find_elements(By.CLASS_NAME, 'captcha-img')
+            captcha_images = []
+            
+            for img_div in image_divs:
+                if img_div.is_displayed():
+                    img_base64 = img_div.get_attribute('src').split(",")[1]  # Extract base64 part
+                    img_id = img_div.get_attribute('onclick').split("'")[1]  # Extract image ID
+                    captcha_images.append({
+                        'id': img_id,
+                        'image': img_base64
+                    })
+            
+            return {
+                'target': target_number,
+                'images': captcha_images
+            }
+        
+        except Exception as e:
+            print(f"Error: {e}")
+            return {'target': None, 'images': []}
+    
     response = session.get(captcha_url)
     soup = BeautifulSoup(response.text, "html.parser")
     

@@ -11,7 +11,11 @@ if __name__ == '__main__':
         try:
             ctx = page.process(context)
             context.update(ctx)
-            next_page = page.next()
+
+            if context.get('next_page'):
+                next_page = context['next_page']
+            else: next_page = page.next()
+            
             if not next_page:
                 break
             
