@@ -16,7 +16,7 @@ class Page:
     '''
     
     def __init__(self) -> None:
-        self.url = ''
+        # self.url = ''
         self.session = None
     
     def process(self, context: dict) -> dict:

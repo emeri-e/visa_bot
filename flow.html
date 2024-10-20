@@ -1,0 +1,58 @@
+<!-- captcha verify/login button -->
+
+<div class="pt-3 pb-3 text-center">
+    <button class="btn btn-primary-soft" id="btnVerify" type="button" onclick="VerifyRegister();">Verify</button>
+    <button type="button" id="btnVerified" formnovalidate="formnovalidate" style="display:none;" class="btn btn-success text-center" disabled=""><i class="fa fa-badge-check pr-2"></i>Verified</button>
+    <button class="btn btn-primary" style="display:none;" id="btnSubmit" type="submit">Login</button>
+</div>
+
+
+<!-- captcha page in captcha.html -->
+<div class="col-4 text-center img-action-div" onclick="onSubmit();">
+    <i class="fa fa-check p-1 img-action" title="Submit Selection" id="submit"></i>
+    <p class="img-action-text">Submit Selection</p>
+    <input id="SelectedImages" name="SelectedImages" type="hidden" value="">
+    <input id="Id" name="Id" type="hidden" value="FG1nWCH+4PuwtH4T/b/uZOf9p62y1ENoePjMxYCIBt/pQLD6dGT1j41wCuVk7dWk6OtUh+8QNFkO3r4pBfH+qQqFSTQMLDeHDmNVfuPLkt8=">
+    <input id="Captcha" name="Captcha" type="hidden" value="Bf0KU6r4PHzEtR9My6uzzPdKSddwylXruf9ExVC2AqwgiR5ycEqqKD0n6sTVxpXFAMEiyxKbKypeIJeRKluBctR3LnnxxPJy2rnOI+vCTXd/dFEObgxYW8YwyG">
+</div>
+
+<!-- scam alert pop up -->
+<div class="modal fade show" id="scamAlert" tabindex="-1" role="dialog" aria-labelledby="scamModalLabel" aria-modal="true" style="display: block;">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content" style="width:720px">
+            <div class="modal-header">
+                <h6 class="modal-title" id="scamModalLabel">  <span class="text-danger" style="font-weight:600;">SCAM ALERT</span></h6>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+            </div>
+            <div class="modal-body scam-body" style="color:black;font-size:medium">
+                <div>
+                    <div>
+<h4>Important Notice</h4>
+<br>
+<p>For appointment requests falling into the following categories:</p>
+<p><strong>- Institutional visas</strong></p>
+<p><strong>- Visas forming part of bilateral agreements or international organizations (FAO, ICTP, UN, WFP)</strong></p>
+<p><strong>- Participation in conferences with invitation from the Italian Government
+- Sports with CONI Letter
+</strong></p>
+<p>Please send your appointment request, attaching the relevant supporting documents (sponsorship letter only) to the following mailbox: consolare.islamabad@esteri.it</p>
+<p>Please exercise caution with travel agents as BLS International has NO affiliation with them.</p>
+</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification -->
+
+<div class="pt-5 pb-3 text-center">
+    <button class="btn btn-primary-soft" id="btnVerify" type="button" onclick="VerifyCaptcha();">Verify Selection</button>
+    <button type="button" id="btnVerified" formnovalidate="formnovalidate" style="display:none;" class="btn btn-success text-center" disabled=""><i class="fa fa-badge-check pr-2"></i>Verified</button>
+    <button class="btn btn-primary" style="display:none;" id="btnSubmit" type="submit">Submit</button>
+</div>
+
+<!-- https://ita-pak.blsinternational.com/Global/bls/visatype -->
+

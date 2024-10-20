@@ -30,15 +30,30 @@ def get_captcha_url(page: str):
 def get_captcha_data(session, captcha_url=None):
     if isinstance(session, Browser):
         try:
-            WDW(session, 10).until(
+            iframe = WDW(session.driver, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, "iframe"))
+            )
+            session.driver.switch_to.frame(iframe)
+
+            WDW(session.driver, 10).until(
                 EC.presence_of_all_elements_located((By.CLASS_NAME, 'box-label'))
             )
             
             target_divs = session.driver.find_elements(By.CLASS_NAME, 'box-label')
-            visible_targets = [div.text.split(' ')[-1] for div in target_divs if div.is_displayed()]
-            target_number = visible_targets[0] if visible_targets else None
-            
-            # Fetch visible captcha images
+
+            highest_z_index = -1
+            target_number = None
+
+            for div in target_divs:
+                if div.is_displayed():
+                    z_index = div.value_of_css_property('z-index')
+                    
+                    if z_index.isdigit() and int(z_index) > highest_z_index:
+                        highest_z_index = int(z_index)
+                        target_number = div.text.split(' ')[-1]
+
+            session.driver.switch_to.default_content()
+
             WDW(session, 10).until(
                 EC.presence_of_all_elements_located((By.CLASS_NAME, 'captcha-img'))
             )

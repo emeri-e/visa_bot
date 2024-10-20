@@ -34,10 +34,10 @@ class Browser:
         options.add_experimental_option("useAutomationExtension", False) 
         
         if self._proxy:
-            proxy_host = self._proxy.host
-            proxy_port = self._proxy.port
-            proxy_username = self._proxy.username
-            proxy_password = self._proxy.password
+            proxy_host = self._proxy['host']
+            proxy_port = self._proxy['port']
+            proxy_username = self._proxy['username']
+            proxy_password = self._proxy['password']
 
             manifest_json = """
             {
@@ -112,7 +112,7 @@ class Browser:
             self.driver.implicitly_wait(10)
 
             current_url = self.driver.current_url
-            if url.split('/')[3] in current_url:
+            if url == current_url:
                 break
             
         

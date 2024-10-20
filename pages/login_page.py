@@ -36,7 +36,9 @@ class LoginPage(Page):
             self.captcha_data['captcha'] = captcha
         
             self.login(username, password, with_browser=False)
-        
+        else:
+            self.login(username, password)
+
         context.update(session=self.session)
         return context
     
@@ -70,7 +72,8 @@ class LoginPage(Page):
         }'''
 
         if with_browser:
-            self.session.clickable('//button[@type="verify"]')
+            self.session.get(self.url)
+            self.session.clickable('//button[@id="btnVerify"]')
             
             captcha_data = get_captcha_data(self.session)
 
@@ -93,7 +96,7 @@ class LoginPage(Page):
 
             self.session.clickable('//button[@type="login"]')
 
-            
+
         else:
             payload = {
                 self.valid_login_fields['username_field']: username,
