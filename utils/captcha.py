@@ -6,7 +6,11 @@ from utils.models import Browser
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as WDW
 from selenium.webdriver.common.by import By
-
+import base64
+import cv2
+import pytesseract
+# import easyocr
+import numpy as np
 
 def get_captcha_url(page: str):
     soup = BeautifulSoup(page, "html.parser")
@@ -52,23 +56,47 @@ def get_captcha_data(session, captcha_url=None):
                         highest_z_index = int(z_index)
                         target_number = div.text.split(' ')[-1]
 
-            session.driver.switch_to.default_content()
+            # session.driver.switch_to.default_content()
 
-            WDW(session, 10).until(
+            WDW(session.driver, 10).until(
                 EC.presence_of_all_elements_located((By.CLASS_NAME, 'captcha-img'))
             )
             image_divs = session.driver.find_elements(By.CLASS_NAME, 'captcha-img')
             captcha_images = []
-            
+
+            image_groups = {}
+
             for img_div in image_divs:
-                if img_div.is_displayed():
+                parent = img_div.find_element(By.XPATH, '..')
+                style = parent.get_attribute('style')
+                display = parent.value_of_css_property('display')
+
+                if ('display' not in style) and (display == 'block') and img_div.is_displayed():
+                    left = int(parent.value_of_css_property('left').replace('px', '').strip())
+                    top = int(parent.value_of_css_property('top').replace('px', '').strip())
+                    z_index = int(parent.value_of_css_property('z-index'))
+
+                    position_key = (left, top)
                     img_base64 = img_div.get_attribute('src').split(",")[1]  # Extract base64 part
                     img_id = img_div.get_attribute('onclick').split("'")[1]  # Extract image ID
-                    captcha_images.append({
-                        'id': img_id,
-                        'image': img_base64
-                    })
-            
+                    
+                    if position_key in image_groups:
+                        if image_groups[position_key]['z_index'] < z_index:
+                            image_groups[position_key] = {
+                                'id': img_id,
+                                'image': img_base64,
+                                'z_index': z_index
+                            }
+                    else:
+                        image_groups[position_key] = {
+                            'id': img_id,
+                            'image': img_base64,
+                            'z_index': z_index
+                        }
+
+            captcha_images = [{'id': v['id'], 'image': v['image']} for v in image_groups.values()]
+
+
             return {
                 'target': target_number,
                 'images': captcha_images
@@ -127,23 +155,67 @@ def fetch_captcha(page, session):
     return captcha_data
 
 
+# def pick_images(target_number, captcha_images):
+#     selected_images = []
+#     for img in captcha_images:
+
+#         payload = {
+#             "userid":base.tcaptcha_username,
+#             "apikey":base.tcaptcha_apikey,
+#             "data":img['image']
+#         }
+
+#         # TODO: this aways returns 503: "name \'resp\' is not defined"
+#         res = requests.post(base.tcaptcha_url, data=payload)
+#         if res.status_code == 200:
+#             text = res.json()['result']
+#             if target_number == text:
+#                 selected_images.append(img['id'])
+#     return selected_images
+
+
 def pick_images(target_number, captcha_images):
     selected_images = []
+
     for img in captcha_images:
-
-        payload = {
-            "userid":base.tcaptcha_username,
-            "apikey":base.tcaptcha_apikey,
-            "data":img['image']
-        }
-
-        # TODO: this aways returns 503: "name \'resp\' is not defined"
-        res = requests.post(base.tcaptcha_url, data=payload)
-        if res.status_code == 200:
-            text = res.json()['result']
-            if target_number == text:
-                selected_images.append(img['id'])
+        image_data = base64.b64decode(img['image'])
+        
+        nparr = np.frombuffer(image_data, np.uint8)
+        
+        decoded_img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+        
+        gray = cv2.cvtColor(decoded_img, cv2.COLOR_BGR2GRAY)
+        
+        text = pytesseract.image_to_string(gray, config='--psm 8 digits').strip()
+        
+        if target_number == text:
+            selected_images.append(img['id'])
+    
     return selected_images
+
+# def pick_images(target_number, captcha_images):
+#     reader = easyocr.Reader(['en'])  # Initialize EasyOCR reader
+#     selected_images = []
+
+#     for img in captcha_images:
+#         # Decode base64 image string to bytes
+#         image_data = base64.b64decode(img['image'])
+        
+#         # Convert bytes to a NumPy array
+#         nparr = np.frombuffer(image_data, np.uint8)
+        
+#         # Decode image from the NumPy array
+#         decoded_img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+
+#         # Use EasyOCR to extract digits from the image
+#         results = reader.readtext(decoded_img, detail=0)
+#         text = ''.join(results).strip()  # Join the result text if there are multiple components
+        
+#         # If the extracted text matches the target number, add to selected images
+#         if target_number == text:
+#             selected_images.append(img['id'])
+    
+#     return selected_images
 
 def solve_captcha(captcha_data, session):
     url = base.captcha_submit_url

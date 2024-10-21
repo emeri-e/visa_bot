@@ -82,7 +82,7 @@ class LoginPage(Page):
             for img_id in images:
                 self.session.clickable(f'//div[@id="{img_id}"]')
 
-            self.session.clickable('//button[@type="submit"]')
+            self.session.clickable('//i[@id="submit"]')
 
             input_elements = self.session.driver.find_elements(By.XPATH, '//input[@required]')
             
@@ -90,11 +90,11 @@ class LoginPage(Page):
                 label = self.session.driver.find_element(By.XPATH, f'//label[@for="{input_element.get_attribute("id")}"]')
                 
                 if label and 'Email' in label.text:
-                    self.session.send_keys(input_element, "your_email@example.com")
+                    self.session.send_keys(input_element, username)
                 elif label and 'Password' in label.text:
-                    self.session.send_keys(input_element, "your_password")
+                    self.session.send_keys(input_element, password)
 
-            self.session.clickable('//button[@type="login"]')
+            self.session.clickable('//button[@id="btnSubmit"]')
 
 
         else:
