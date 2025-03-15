@@ -208,7 +208,8 @@ class AvailabilityPage(Page):
                         try:
                             _,slots = self._fetch_time_slots(date_str, choices)
                         except:
-                            raise EndException('ended because the selected location dosent allow appointment checks')
+                            self.logger.error('failed to fetch slot due to unavailablity')
+                            continue
                         
                         if slots:
                             available_date = date
