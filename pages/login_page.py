@@ -3,7 +3,6 @@ import requests
 from .base import Page
 from utils.functions import create_session
 from utils.captcha import fetch_captcha, get_captcha_data, pick_images, solve_captcha
-from data import USER_CREDENTIALS as auth
 from config import base
 
 from selenium.webdriver.common.by import By
@@ -15,32 +14,41 @@ class LoginPage(Page):
     url = base.login_url
     captcha_data = {}
     valid_login_fields = {}
+
+    def __str__(self):
+        return 'Login'
     
     def process(self, context: dict) -> dict:
-        username = auth.get('username')
-        password = auth.get('password')
+        username = context.get('username')
+        password = context.get('password')
         if not (username and password):
             raise Exception('[Login Page]: invalid credentials provided')
         
-        if context.get('session'):
-            self.session = context['session']
-        else:
-            self.session = create_session()
+        # if context.get('session'):
+        #     self.session = context['session']
+        # else:
+        # print('[Login]: creating new session...')
+        self.session = create_session(with_proxy = context.get('use_proxy'))
         
         if isinstance(self.session, requests.Session):
+            # print('[Login]: CLI session created')
             response = self.session.get(self.url)
-            self.valid_login_fields = self.get_valid_fields(response.text)
-            self.captcha_data = fetch_captcha(response.text, self.session)
+            print('[Login]: started...')
+            self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
 
-            captcha = solve_captcha(self.captcha_data, self.session)
-            self.captcha_data['captcha'] = captcha
+            print('[Login]: logging in...')
+            status =self.login(username, password, with_browser=False)
         
-            self.login(username, password, with_browser=False)
         else:
-            self.login(username, password)
-
-        context.update(session=self.session)
-        return context
+            status = self.login(username, password)
+        
+        if status == True:
+            print('[Login]: login successful\n\n')
+            context.update(session=self.session)
+            return context
+        
+        else:
+            raise Exception(f'[Login]: login failed with the response: {status}')
     
     def get_valid_fields(self, page_text):
         soup = BeautifulSoup(page_text, 'html.parser')
@@ -56,6 +64,9 @@ class LoginPage(Page):
             elif label and 'Password' in label.text:
                 result['password_field'] = input_element['id']
 
+        token = soup.find('input', {'name': '__RequestVerificationToken'})['value']
+
+        result['__RequestVerificationToken'] = token
         return result
       
     def next(self):
@@ -99,23 +110,70 @@ class LoginPage(Page):
 
         else:
             payload = {
+                'UserId1': '',
+                'UserId2': '',
+                'UserId3': '',
+                'UserId4': '',
+                'UserId5': '',
+                'UserId6': '',
+                'UserId7': '',
+                'UserId8': '',
+                'UserId9': '',
+                'UserId10': '',
+                'Password1': '',
+                'Password2': '',
+                'Password3': '',
+                'Password4': '',
+                'Password5': '',
+                'Password6': '',
+                'Password7': '',
+                'Password8': '',
+                'Password9': '',
+                'Password10': '',
+                'ReturnUrl': '',
+                'CaptchaParam': ''
+            }
+
+            additional_fields = {
                 self.valid_login_fields['username_field']: username,
                 self.valid_login_fields['password_field']: password,
                 'CaptchaId': self.captcha_data['captcha_id'],
                 'CaptchaData': self.captcha_data['captcha'],
                 'ScriptData': self.captcha_data['script_data'],
-                '__RequestVerificationToken': self.captcha_data['__RequestVerificationToken']
+                '__RequestVerificationToken': self.valid_login_fields['__RequestVerificationToken']
             }
+            print(f"Sending login data: {additional_fields}")
 
-            headers = {
+            payload.update(additional_fields)
+
+            self.session.headers.update({
+                'Accept': '*/*',
+                'Accept-Encoding': 'gzip, deflate, br, zstd',
+                'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                'Origin': 'https://ita-pak.blsinternational.com',
+                'Priority': 'u=1, i',
+                'Referer': 'https://ita-pak.blsinternational.com/Global/account/login',
+                'Sec-CH-UA': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'Sec-CH-UA-Mobile': '?0',
+                'Sec-CH-UA-Platform': '"Linux"',
+                'Sec-Fetch-Dest': 'empty',
+                'Sec-Fetch-Mode': 'cors',
+                'Sec-Fetch-Site': 'same-origin',
+                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
                 'X-Requested-With': 'XMLHttpRequest'
-            }
+            })
 
-            response = self.session.post(self.url, data=payload, headers=headers)
+
+            response = self.session.post(self.url, data=payload)
+            
+            # with open('response.html', 'w') as f:
+            #     f.write(response.text)
 
             result = response.json()
+            
 
-            if result.get('status') == True:
+            if result.get('success') == True:
                 return True
             else:
-                return None
+                return result

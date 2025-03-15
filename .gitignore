@@ -2,3 +2,8 @@
 .venv/
 users.csv
 *.pyc
+test.py
+proxy_auth_plugin.zip
+creds
+saved_choices.json
+whatsapp.txt

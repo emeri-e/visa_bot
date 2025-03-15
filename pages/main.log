@@ -1,0 +1,1539 @@
+2024-12-16 06:08:24,945 - INFO - 500 
+2024-12-16 06:08:56,768 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 155, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 47, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-12-16 09:24:47,937 - INFO - 500 
+2024-12-16 09:24:54,427 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 158, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 47, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-12-16 09:59:45,859 - INFO - 500 
+2024-12-16 10:05:34,584 - INFO - 500 
+2024-12-16 10:05:45,789 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 120, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-12-16 10:15:40,319 - INFO - 500 
+2024-12-16 10:15:43,769 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-01-30 06:58:36,230 - ERROR - Unknown error: <urlopen error [Errno 110] Connection timed out>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 347, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 263, in pick_images
+    return pick_images_local(target_number, captcha_images)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 321, in pick_images_local
+    reader = easyocr.Reader(['en'], gpu=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 92, in __init__
+    detector_path = self.getDetectorPath(detect_network)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 253, in getDetectorPath
+    download_and_unzip(self.detection_models[self.detect_network]['url'], self.detection_models[self.detect_network]['filename'], self.model_storage_directory, self.verbose)
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/utils.py", line 628, in download_and_unzip
+    urlretrieve(url, zip_path, reporthook=reporthook)
+  File "/usr/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 553, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 745, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>
+2025-01-30 07:15:15,654 - ERROR - Unknown error: <urlopen error [Errno 110] Connection timed out>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 347, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 263, in pick_images
+    return pick_images_local(target_number, captcha_images)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 321, in pick_images_local
+    reader = easyocr.Reader(['en'], gpu=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 92, in __init__
+    detector_path = self.getDetectorPath(detect_network)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 253, in getDetectorPath
+    download_and_unzip(self.detection_models[self.detect_network]['url'], self.detection_models[self.detect_network]['filename'], self.model_storage_directory, self.verbose)
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/utils.py", line 628, in download_and_unzip
+    urlretrieve(url, zip_path, reporthook=reporthook)
+  File "/usr/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 553, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 745, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>
+2025-02-04 18:19:14,532 - ERROR - General request error: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7c248709ac90>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 441, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7c248709ac90>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7c248709ac90>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 459, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 332, in pick_images
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7c248709ac90>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+2025-03-01 02:56:02,078 - ERROR - General request error: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74320e612c00>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 441, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x74320e612c00>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74320e612c00>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 459, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 332, in pick_images
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='16.16.24.94', port=2001): Max retries exceeded with url: /extract/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74320e612c00>, 'Connection to 16.16.24.94 timed out. (connect timeout=None)'))
+2025-03-01 03:16:59,546 - ERROR - Unknown error: <urlopen error [Errno 110] Connection timed out>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 459, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 304, in pick_images
+    return pick_images_local(target_number, captcha_images)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 430, in pick_images_local
+    reader = easyocr.Reader(['en'], gpu=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 92, in __init__
+    detector_path = self.getDetectorPath(detect_network)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 253, in getDetectorPath
+    download_and_unzip(self.detection_models[self.detect_network]['url'], self.detection_models[self.detect_network]['filename'], self.model_storage_directory, self.verbose)
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/utils.py", line 628, in download_and_unzip
+    urlretrieve(url, zip_path, reporthook=reporthook)
+  File "/usr/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 553, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 745, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>
+2025-03-01 03:32:45,721 - ERROR - Unknown error: <urlopen error [Errno 110] Connection timed out>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 459, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 304, in pick_images
+    return pick_images_local(target_number, captcha_images)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 430, in pick_images_local
+    reader = easyocr.Reader(['en'], gpu=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 92, in __init__
+    detector_path = self.getDetectorPath(detect_network)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/easyocr.py", line 253, in getDetectorPath
+    download_and_unzip(self.detection_models[self.detect_network]['url'], self.detection_models[self.detect_network]['filename'], self.model_storage_directory, self.verbose)
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/easyocr/utils.py", line 628, in download_and_unzip
+    urlretrieve(url, zip_path, reporthook=reporthook)
+  File "/usr/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 553, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 745, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>
+2025-03-01 13:38:27,500 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-01 13:39:35,704 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-01 13:40:37,137 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-01 13:44:05,480 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-01 13:49:38,750 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-01 13:51:09,679 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 230, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-05 15:25:20,263 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 260, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-05 15:39:39,087 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 260, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-05 23:59:57,823 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 260, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:09:45,927 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:10:26,703 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:10:33,917 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:11:30,520 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:11:32,668 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:14:51,153 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 480, in solve_captcha
+    result = response.json()
+             ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 00:25:36,215 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 00:31:11,882 - ERROR - Unknown error: [Login]: login failed
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 267, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception('[Login]: login failed')
+Exception: [Login]: login failed
+2025-03-06 10:34:55,890 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 10:35:16,829 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 10:35:28,407 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 10:35:57,332 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 10:36:07,834 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 10:36:25,861 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 10:36:34,546 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 10:37:32,159 - ERROR - General request error: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ddc451a3890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 441, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7ddc451a3890>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ddc451a3890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 332, in pick_images
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ddc451a3890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-06 10:42:20,619 - ERROR - General request error: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x76f72457f260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 441, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x76f72457f260>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x76f72457f260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 332, in pick_images
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=2001): Max retries exceeded with url: /extract/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x76f72457f260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-06 10:46:03,566 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 10:46:14,897 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 10:46:32,172 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 461, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 339, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 10:59:16,467 - ERROR - Unknown error: can only join an iterable
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 37, in process
+    self.captcha_data = self.process_captcha(response.text, use_local_ocr=context.get('local_ocr'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/base.py", line 51, in process_captcha
+    captcha = solve_captcha(self.captcha_data, self.session, captcha_field_name, local=use_local_ocr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 462, in solve_captcha
+    selected_images = pick_images(captcha_data['target'], captcha_data['images'], local = local)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/utils/captcha.py", line 340, in pick_images
+    text = ''.join(text_list).replace(" ", "")
+           ^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+2025-03-06 11:04:44,197 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 11:04:47,113 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 11:08:20,108 - ERROR - Unknown error: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 269, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/login_page.py", line 51, in process
+    raise Exception(f'[Login]: login failed with the response: {status}')
+Exception: [Login]: login failed with the response: {'success': False, 'error': 'Invalid User Id/Password'}
+2025-03-06 12:15:04,468 - INFO - 500 
+2025-03-06 12:15:04,470 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 12:16:28,342 - INFO - 500 
+2025-03-06 12:16:28,343 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 12:17:44,066 - INFO - 500 
+2025-03-06 12:17:44,066 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 12:19:01,579 - INFO - 500 
+2025-03-06 12:19:01,580 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 12:20:20,016 - INFO - 500 
+2025-03-06 12:20:20,016 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 165, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-06 12:48:33,798 - INFO - 500 
+2025-03-06 12:48:33,799 - ERROR - General request error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emerie/Documents/visa_bot/main.py", line 243, in main_process
+    ctx = page.process(context)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 208, in process
+    _,slots = self._fetch_time_slots(date_str, choices)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/pages/availability_page.py", line 52, in _fetch_time_slots
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/emerie/Documents/visa_bot/.venv/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-03-14 10:34:53,007 - INFO - 200 []
+2025-03-14 10:34:55,791 - INFO - 200 []
+2025-03-14 10:35:00,094 - INFO - 200 []
+2025-03-14 10:35:02,478 - INFO - 200 []
+2025-03-14 10:35:05,828 - INFO - 200 []
+2025-03-14 10:35:08,188 - INFO - 200 []
+2025-03-14 10:40:59,880 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:02,026 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:03,976 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:06,384 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:08,277 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:10,223 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:22,205 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:24,159 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:26,097 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:27,940 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:29,988 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:31,830 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:43,812 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:46,066 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:48,214 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:50,162 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:52,107 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:41:54,258 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:42:07,377 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]
+2025-03-14 10:42:09,516 - INFO - 200 [{"Name":"12:00-12:30","Value":null,"Code":"1","Count":0,"EnumId":12001230,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:00-12:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"12:30-13:00","Value":null,"Code":"1","Count":0,"EnumId":12301300,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"12:30-13:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:00-13:30","Value":null,"Code":"1","Count":0,"EnumId":13001330,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:00-13:30","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null},{"Name":"13:30-14:00","Value":null,"Code":"1","Count":0,"EnumId":13301400,"Error":null,"DataType":null,"ClassName":null,"title":null,"key":null,"lazy":false,"selected":false,"DepartmentOwnerUserId":null,"HasChildren":false,"UserId":null,"Id":"13:30-14:00","CreatedDate":"0001-01-01T00:00:00","CreatedBy":null,"LastUpdatedDate":"0001-01-01T00:00:00","LastUpdatedBy":null,"IsDeleted":false,"SequenceOrder":null,"CompanyId":null,"LegalEntityId":null,"DataAction":0,"Status":0,"VersionNo":0,"PortalId":null}]

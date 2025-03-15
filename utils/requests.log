@@ -1,0 +1,1327 @@
+2024-12-16 06:06:08,838 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:06:20,306 - INFO - Response received: 200 in 11.46 seconds
+2024-12-16 06:06:20,445 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=lyBjAVFaNGnBEr3U297zkTNIdZ6mcTja0KhH3pdhs1j%2bJeXPrmmUt%2fUBhAn0Z4a3zrXQbMhJqzIENVrsjWiq%2bqaQV%2bbc6DV8oKgubh4aPus%3d
+2024-12-16 06:06:26,589 - INFO - Response received: 200 in 6.14 seconds
+2024-12-16 06:06:34,924 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 06:06:37,212 - INFO - Response received: 200 in 2.29 seconds
+2024-12-16 06:06:37,339 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=lyBjAVFaNGnBEr3U297zkTNIdZ6mcTja0KhH3pdhs1j%2bJeXPrmmUt%2fUBhAn0Z4a3zrXQbMhJqzIENVrsjWiq%2bqaQV%2bbc6DV8oKgubh4aPus%3d
+2024-12-16 06:06:44,102 - INFO - Response received: 200 in 6.76 seconds
+2024-12-16 06:06:51,928 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 06:06:53,330 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 06:06:53,473 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=lyBjAVFaNGnBEr3U297zkTNIdZ6mcTja0KhH3pdhs1j%2bJeXPrmmUt%2fUBhAn0Z4a3zrXQbMhJqzIENVrsjWiq%2bqaQV%2bbc6DV8oKgubh4aPus%3d
+2024-12-16 06:07:00,673 - INFO - Response received: 200 in 7.20 seconds
+2024-12-16 06:07:13,134 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 06:07:14,986 - INFO - Response received: 200 in 1.85 seconds
+2024-12-16 06:07:15,073 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=lyBjAVFaNGnBEr3U297zkTNIdZ6mcTja0KhH3pdhs1j%2bJeXPrmmUt%2fUBhAn0Z4a3zrXQbMhJqzIENVrsjWiq%2bqaQV%2bbc6DV8oKgubh4aPus%3d
+2024-12-16 06:07:22,658 - INFO - Response received: 200 in 7.58 seconds
+2024-12-16 06:07:35,484 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 06:07:36,891 - INFO - Response received: 200 in 1.41 seconds
+2024-12-16 06:07:36,892 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:07:38,295 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 06:07:45,631 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 06:07:48,747 - INFO - Response received: 200 in 3.11 seconds
+2024-12-16 06:07:53,879 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 06:08:03,541 - INFO - Response received: 200 in 9.66 seconds
+2024-12-16 06:08:13,198 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 06:08:14,583 - INFO - Response received: 200 in 1.38 seconds
+2024-12-16 06:08:14,583 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 06:08:15,984 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 06:08:15,986 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=hM2syV9nJjtVT%2buQJGHw3ygetk4zsNqbeNuXkAshcnWlM9GIM5gQDSh5Tw8eOG5bx0aN0vTv5isFlcIYlSQC%2fVh9uVEL7MeNw8p6Im4yJF9CGQP5ezRdGvpqSuGaPo9L4UP66qLdF56ATRxoYDDn%2f%2fCiyvPqdZYcujeuchAS6VA%3d
+2024-12-16 06:08:21,489 - INFO - Response received: 200 in 5.50 seconds
+2024-12-16 06:08:22,094 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=hM2syV9nJjtVT%2buQJGHw3ygetk4zsNqbeNuXkAshcnWlM9GIM5gQDSh5Tw8eOG5bx0aN0vTv5isFlcIYlSQC%2fVh9uVEL7MeNw8p6Im4yJF9CGQP5ezRdGvpqSuGaPo9L4UP66qLdF56ATRxoYDDn%2f%2fCiyvPqdZYcujeuchAS6VA%3d
+2024-12-16 06:08:23,482 - INFO - Response received: 200 in 1.39 seconds
+2024-12-16 06:08:23,578 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 06:08:24,945 - INFO - Response received: 500 in 1.37 seconds
+2024-12-16 06:09:28,622 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 06:09:37,269 - INFO - Response received: 200 in 8.65 seconds
+2024-12-16 06:09:50,804 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 06:09:59,641 - INFO - Response received: 200 in 8.84 seconds
+2024-12-16 06:10:17,581 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 06:10:19,158 - INFO - Response received: 200 in 1.57 seconds
+2024-12-16 06:10:19,160 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 06:10:21,947 - INFO - Response received: 200 in 2.79 seconds
+2024-12-16 06:10:21,949 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=hM2syV9nJjtVT%2buQJGHw3ygetk4zsNqbeNuXkAshcnWlM9GIM5gQDSh5Tw8eOG5bx0aN0vTv5isFlcIYlSQC%2fVh9uVEL7MeNw8p6Im4yJF9CGQP5ezRdGvpqSuGaPo9LvurTJrbFbGPtaMgTzlmL5JlXEDt63i3gdolhMra6oCI%3d
+2024-12-16 06:10:27,530 - INFO - Response received: 200 in 5.58 seconds
+2024-12-16 06:10:27,870 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=hM2syV9nJjtVT%2buQJGHw3ygetk4zsNqbeNuXkAshcnWlM9GIM5gQDSh5Tw8eOG5bx0aN0vTv5isFlcIYlSQC%2fVh9uVEL7MeNw8p6Im4yJF9CGQP5ezRdGvpqSuGaPo9LvurTJrbFbGPtaMgTzlmL5JlXEDt63i3gdolhMra6oCI%3d
+2024-12-16 06:10:31,912 - INFO - Response received: 200 in 4.04 seconds
+2024-12-16 06:10:57,972 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 06:10:59,504 - INFO - Response received: 500 in 1.53 seconds
+2024-12-16 06:15:10,202 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:15:45,791 - ERROR - Timeout error. Retrying...
+2024-12-16 06:15:45,792 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:16:19,637 - ERROR - Timeout error. Retrying...
+2024-12-16 06:16:19,637 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:17:17,491 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 06:17:58,999 - ERROR - Timeout error. Retrying...
+2024-12-16 06:17:58,999 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:23:23,079 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:23:29,998 - INFO - Response received: 200 in 6.89 seconds
+2024-12-16 09:23:30,141 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=ir9xUGvL4Xly5cePeydHCrBvhsEIo4mrCUwK2ZeyN3DVrMCMlDQJ8HDC4ZgMrOWNYcxbxzjAbewUbgiLP0ngWKpzYFdT1Yyw%2fcAw%2by%2bxsIM%3d
+2024-12-16 09:23:34,402 - INFO - Response received: 200 in 4.26 seconds
+2024-12-16 09:23:45,412 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:23:46,930 - INFO - Response received: 200 in 1.52 seconds
+2024-12-16 09:23:47,039 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=ir9xUGvL4Xly5cePeydHCrBvhsEIo4mrCUwK2ZeyN3DVrMCMlDQJ8HDC4ZgMrOWNYcxbxzjAbewUbgiLP0ngWKpzYFdT1Yyw%2fcAw%2by%2bxsIM%3d
+2024-12-16 09:23:58,707 - INFO - Response received: 200 in 11.67 seconds
+2024-12-16 09:24:06,488 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:24:07,826 - INFO - Response received: 200 in 1.34 seconds
+2024-12-16 09:24:07,828 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:24:09,812 - INFO - Response received: 200 in 1.98 seconds
+2024-12-16 09:24:09,814 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:24:11,257 - INFO - Response received: 200 in 1.44 seconds
+2024-12-16 09:24:22,667 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:24:26,826 - INFO - Response received: 200 in 4.16 seconds
+2024-12-16 09:24:33,888 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:24:35,220 - INFO - Response received: 200 in 1.33 seconds
+2024-12-16 09:24:35,221 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:24:36,568 - INFO - Response received: 200 in 1.35 seconds
+2024-12-16 09:24:36,570 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuae5mqUgum%2bjHH%2bFOkP0gAMCt7d5C%2fjkgmhDzzNppY0p4QoFMPpZpAVFwX7NiQ5JeM%3d
+2024-12-16 09:24:39,055 - INFO - Response received: 200 in 2.49 seconds
+2024-12-16 09:24:39,438 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuae5mqUgum%2bjHH%2bFOkP0gAMCt7d5C%2fjkgmhDzzNppY0p4QoFMPpZpAVFwX7NiQ5JeM%3d
+2024-12-16 09:24:40,884 - INFO - Response received: 200 in 1.45 seconds
+2024-12-16 09:24:40,885 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:24:42,910 - INFO - Response received: 200 in 2.03 seconds
+2024-12-16 09:24:46,564 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 09:24:47,936 - INFO - Response received: 500 in 1.37 seconds
+2024-12-16 09:24:54,452 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:24:56,466 - INFO - Response received: 200 in 2.01 seconds
+2024-12-16 09:25:31,721 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:25:35,521 - INFO - Response received: 200 in 3.80 seconds
+2024-12-16 09:25:42,399 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:25:43,921 - INFO - Response received: 200 in 1.52 seconds
+2024-12-16 09:25:43,921 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:25:45,561 - INFO - Response received: 200 in 1.64 seconds
+2024-12-16 09:25:45,566 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=9soufT%2b4xPs0T9vyRgcma%2b%2bxFySQj95%2bAX0ShS50mzX8maZVkLYLAAnM2FJ4qhibWozl6lg60gju4xZyRNlFuGxYKPy7axMg7wEe1FaYINgXmRHk%2bIQ00q2T%2fnb5dwfmE%2bxBir%2byS%2bTtYRPwDEOWtEd45XrEaiXai51YysjV9ps%3d
+2024-12-16 09:25:48,112 - INFO - Response received: 200 in 2.55 seconds
+2024-12-16 09:25:48,468 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=9soufT%2b4xPs0T9vyRgcma%2b%2bxFySQj95%2bAX0ShS50mzX8maZVkLYLAAnM2FJ4qhibWozl6lg60gju4xZyRNlFuGxYKPy7axMg7wEe1FaYINgXmRHk%2bIQ00q2T%2fnb5dwfmE%2bxBir%2byS%2bTtYRPwDEOWtEd45XrEaiXai51YysjV9ps%3d
+2024-12-16 09:25:49,846 - INFO - Response received: 200 in 1.38 seconds
+2024-12-16 09:25:49,847 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:25:51,628 - INFO - Response received: 200 in 1.78 seconds
+2024-12-16 09:27:19,945 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 09:27:26,881 - INFO - Response received: 500 in 6.93 seconds
+2024-12-16 09:31:40,784 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:31:56,637 - INFO - Response received: 200 in 15.85 seconds
+2024-12-16 09:31:56,776 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=zZuzuINu0dNKMnkLNz2JLebsHq3sdY8u09TR%2bSaQTq8QSuQi4dnQh7K3wsZUmDtwJie27EUCWpBGItlICv%2b5KS37oAPTf%2fROVLe49lmhcFw%3d
+2024-12-16 09:34:11,869 - INFO - Response received: 200 in 135.09 seconds
+2024-12-16 09:34:19,196 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:34:21,383 - INFO - Response received: 200 in 2.19 seconds
+2024-12-16 09:34:21,506 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=zZuzuINu0dNKMnkLNz2JLebsHq3sdY8u09TR%2bSaQTq8QSuQi4dnQh7K3wsZUmDtwJie27EUCWpBGItlICv%2b5KS37oAPTf%2fROVLe49lmhcFw%3d
+2024-12-16 09:35:28,675 - INFO - Response received: 200 in 67.17 seconds
+2024-12-16 09:35:36,894 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:35:39,199 - INFO - Response received: 200 in 2.30 seconds
+2024-12-16 09:35:39,326 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=zZuzuINu0dNKMnkLNz2JLebsHq3sdY8u09TR%2bSaQTq8QSuQi4dnQh7K3wsZUmDtwJie27EUCWpBGItlICv%2b5KS37oAPTf%2fROVLe49lmhcFw%3d
+2024-12-16 09:36:09,362 - ERROR - Timeout error. Retrying...
+2024-12-16 09:36:09,363 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=zZuzuINu0dNKMnkLNz2JLebsHq3sdY8u09TR%2bSaQTq8QSuQi4dnQh7K3wsZUmDtwJie27EUCWpBGItlICv%2b5KS37oAPTf%2fROVLe49lmhcFw%3d
+2024-12-16 09:36:15,262 - INFO - Response received: 403 in 5.90 seconds
+2024-12-16 09:37:14,527 - ERROR - Forbidden (403) encountered
+2024-12-16 09:45:20,698 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:45:27,887 - INFO - Response received: 200 in 7.00 seconds
+2024-12-16 09:45:28,023 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=ZfWLB2tepFUGj4LnR6Dri90ONKqfqC3l1E2oBQNjqPJexGVaeHxzeiM8Vt3pJOEnYoruuP1b6w6sGeXZztmIUPhqOpPL5QvvWhKoPqWV4DE%3d
+2024-12-16 09:45:31,185 - INFO - Response received: 200 in 3.16 seconds
+2024-12-16 09:45:37,785 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:45:39,512 - INFO - Response received: 200 in 1.73 seconds
+2024-12-16 09:45:39,644 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=ZfWLB2tepFUGj4LnR6Dri90ONKqfqC3l1E2oBQNjqPJexGVaeHxzeiM8Vt3pJOEnYoruuP1b6w6sGeXZztmIUPhqOpPL5QvvWhKoPqWV4DE%3d
+2024-12-16 09:45:44,035 - INFO - Response received: 200 in 4.39 seconds
+2024-12-16 09:45:51,983 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:45:53,352 - INFO - Response received: 200 in 1.37 seconds
+2024-12-16 09:45:53,355 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:45:54,840 - INFO - Response received: 200 in 1.49 seconds
+2024-12-16 09:45:54,844 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:45:56,700 - INFO - Response received: 200 in 1.86 seconds
+2024-12-16 09:46:57,589 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:47:06,413 - INFO - Response received: 200 in 8.82 seconds
+2024-12-16 09:47:12,814 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:47:14,438 - INFO - Response received: 200 in 1.62 seconds
+2024-12-16 09:47:14,439 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:47:16,053 - INFO - Response received: 200 in 1.61 seconds
+2024-12-16 09:47:16,055 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=9soufT%2b4xPs0T9vyRgcma%2b%2bxFySQj95%2bAX0ShS50mzX8maZVkLYLAAnM2FJ4qhibWozl6lg60gju4xZyRNlFuGxYKPy7axMg7wEe1FaYINgXmRHk%2bIQ00q2T%2fnb5dwfmEN%2b4s3eftUO3JJDfSYCG3nmUfLfvG1L4%2bVKEquS%2bC%2fk%3d
+2024-12-16 09:47:18,732 - INFO - Response received: 200 in 2.68 seconds
+2024-12-16 09:47:19,117 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=9soufT%2b4xPs0T9vyRgcma%2b%2bxFySQj95%2bAX0ShS50mzX8maZVkLYLAAnM2FJ4qhibWozl6lg60gju4xZyRNlFuGxYKPy7axMg7wEe1FaYINgXmRHk%2bIQ00q2T%2fnb5dwfmEN%2b4s3eftUO3JJDfSYCG3nmUfLfvG1L4%2bVKEquS%2bC%2fk%3d
+2024-12-16 09:47:20,733 - INFO - Response received: 200 in 1.62 seconds
+2024-12-16 09:47:47,903 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 09:47:49,425 - INFO - Response received: 500 in 1.52 seconds
+2024-12-16 09:52:31,779 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:52:36,310 - INFO - Response received: 403 in 4.53 seconds
+2024-12-16 09:52:39,307 - ERROR - Forbidden (403) encountered
+2024-12-16 09:53:00,883 - INFO - 403 not fixed in 21.58 seconds. redirecting...
+2024-12-16 09:53:13,283 - ERROR - An error occurred: Logining in afresh
+2024-12-16 09:53:16,355 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:53:22,681 - INFO - Response received: 200 in 6.32 seconds
+2024-12-16 09:53:22,800 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=jI0n112z1NlksXh1HihXOE4hQFhdOZzrtIncajdLlJrCJlCvU5EMeUbtqog2QmZkMcmbArOioA9ZRIhOLrOpU0A7YUQuFzd9N5OWYnCSRbQ%3d
+2024-12-16 09:53:29,881 - INFO - Response received: 200 in 7.08 seconds
+2024-12-16 09:53:36,610 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:53:38,274 - INFO - Response received: 200 in 1.66 seconds
+2024-12-16 09:53:38,276 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:53:39,765 - INFO - Response received: 200 in 1.49 seconds
+2024-12-16 09:53:39,767 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:53:47,960 - INFO - Response received: 200 in 8.19 seconds
+2024-12-16 09:53:48,100 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=6IwN6BiLFAh%2fOW9JGvyixz4FP1LDo0ggrwhlb0VOfFg8ruYYZvHl0xCcYSpVnreMYdzDXWkv1Bxd4XkD3yNEEW%2fheAi0UJ2JfWNeIEgv0dk%3d
+2024-12-16 09:53:56,043 - INFO - Response received: 200 in 7.94 seconds
+2024-12-16 09:54:02,480 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:54:05,921 - INFO - Response received: 200 in 3.44 seconds
+2024-12-16 09:54:05,923 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:54:08,722 - INFO - Response received: 200 in 2.80 seconds
+2024-12-16 09:54:08,724 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:54:14,240 - INFO - Response received: 200 in 5.52 seconds
+2024-12-16 09:54:32,178 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:54:40,537 - INFO - Response received: 200 in 8.36 seconds
+2024-12-16 09:54:48,465 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:54:50,259 - INFO - Response received: 200 in 1.79 seconds
+2024-12-16 09:54:53,743 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:54:56,861 - INFO - Response received: 200 in 3.12 seconds
+2024-12-16 09:54:56,863 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=zNeXye%2bxB6JfbS39PmZ6VrnenKuWbgBfPAz1O%2bcWYWtr8sJRpbU0iKbjkI5TJ7untRwWGuPw5r%2bWT1zGxkSD5AhLmbuNu5bgbPuG3aIdjlcUzbjduRaDG4bLIppwLp7NhBG%2fHMWLVvi%2fsAztGr10ETqxNfZL5v9LKkCnq78Jd84%3d
+2024-12-16 09:55:04,774 - INFO - Response received: 200 in 7.91 seconds
+2024-12-16 09:55:05,186 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=zNeXye%2bxB6JfbS39PmZ6VrnenKuWbgBfPAz1O%2bcWYWtr8sJRpbU0iKbjkI5TJ7untRwWGuPw5r%2bWT1zGxkSD5AhLmbuNu5bgbPuG3aIdjlcUzbjduRaDG4bLIppwLp7NhBG%2fHMWLVvi%2fsAztGr10ETqxNfZL5v9LKkCnq78Jd84%3d
+2024-12-16 09:55:08,080 - INFO - Response received: 200 in 2.89 seconds
+2024-12-16 09:55:08,081 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:55:10,333 - INFO - Response received: 200 in 2.25 seconds
+2024-12-16 09:55:59,808 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 09:56:01,723 - INFO - Response received: 500 in 1.91 seconds
+2024-12-16 09:57:54,738 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:58:02,220 - INFO - Response received: 200 in 7.48 seconds
+2024-12-16 09:58:02,339 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=fWvMTy2Ab6DOZ2%2f3dlRer4FpGff%2bf5QI6s023%2fLKgcHAZzbmfHG%2baDqJUTJYoyHfoWCuhdTJv%2fQFHvJyAtaCEog2VJemakSttVOwHp36bGQ%3d
+2024-12-16 09:58:09,031 - INFO - Response received: 200 in 6.69 seconds
+2024-12-16 09:58:19,894 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 09:58:21,501 - INFO - Response received: 200 in 1.61 seconds
+2024-12-16 09:58:21,503 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 09:58:24,588 - INFO - Response received: 200 in 3.09 seconds
+2024-12-16 09:58:24,592 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 09:58:26,630 - INFO - Response received: 200 in 2.04 seconds
+2024-12-16 09:58:33,130 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:58:40,492 - INFO - Response received: 200 in 7.36 seconds
+2024-12-16 09:58:49,451 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:58:50,851 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 09:58:50,964 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:58:59,170 - INFO - Response received: 200 in 8.21 seconds
+2024-12-16 09:59:07,063 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:59:08,572 - INFO - Response received: 200 in 1.51 seconds
+2024-12-16 09:59:08,669 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:59:14,969 - INFO - Response received: 200 in 6.30 seconds
+2024-12-16 09:59:21,570 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:59:23,568 - INFO - Response received: 200 in 2.00 seconds
+2024-12-16 09:59:23,674 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 09:59:30,048 - INFO - Response received: 200 in 6.37 seconds
+2024-12-16 09:59:38,412 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 09:59:40,568 - INFO - Response received: 200 in 2.16 seconds
+2024-12-16 09:59:44,379 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 09:59:45,857 - INFO - Response received: 500 in 1.48 seconds
+2024-12-16 10:03:56,063 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:04:01,811 - INFO - Response received: 200 in 5.74 seconds
+2024-12-16 10:04:01,911 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=FBY%2f9%2bJ5%2fPb1aQukJk0CSUC5R0xDcPmhXq5J18D0dmqQo4dDSECj5C1gE7XY8aLJPereteZdwb1pO760n6H9NNw4evAT0ZrPydSuP1f9Nho%3d
+2024-12-16 10:04:07,346 - INFO - Response received: 200 in 5.43 seconds
+2024-12-16 10:04:13,986 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:04:15,592 - INFO - Response received: 200 in 1.61 seconds
+2024-12-16 10:04:15,676 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=FBY%2f9%2bJ5%2fPb1aQukJk0CSUC5R0xDcPmhXq5J18D0dmqQo4dDSECj5C1gE7XY8aLJPereteZdwb1pO760n6H9NNw4evAT0ZrPydSuP1f9Nho%3d
+2024-12-16 10:04:21,472 - INFO - Response received: 200 in 5.80 seconds
+2024-12-16 10:04:29,382 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:04:31,065 - INFO - Response received: 200 in 1.68 seconds
+2024-12-16 10:04:31,200 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=FBY%2f9%2bJ5%2fPb1aQukJk0CSUC5R0xDcPmhXq5J18D0dmqQo4dDSECj5C1gE7XY8aLJPereteZdwb1pO760n6H9NNw4evAT0ZrPydSuP1f9Nho%3d
+2024-12-16 10:04:37,061 - INFO - Response received: 200 in 5.86 seconds
+2024-12-16 10:04:43,823 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:04:45,443 - INFO - Response received: 200 in 1.62 seconds
+2024-12-16 10:04:45,565 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=FBY%2f9%2bJ5%2fPb1aQukJk0CSUC5R0xDcPmhXq5J18D0dmqQo4dDSECj5C1gE7XY8aLJPereteZdwb1pO760n6H9NNw4evAT0ZrPydSuP1f9Nho%3d
+2024-12-16 10:04:52,560 - INFO - Response received: 200 in 6.99 seconds
+2024-12-16 10:04:58,862 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:05:00,344 - INFO - Response received: 200 in 1.48 seconds
+2024-12-16 10:05:00,346 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:05:02,273 - INFO - Response received: 200 in 1.93 seconds
+2024-12-16 10:05:02,276 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:05:04,154 - INFO - Response received: 200 in 1.88 seconds
+2024-12-16 10:05:16,744 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:05:22,846 - INFO - Response received: 200 in 6.10 seconds
+2024-12-16 10:05:31,707 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:05:33,102 - INFO - Response received: 200 in 1.39 seconds
+2024-12-16 10:05:33,221 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 10:05:34,584 - INFO - Response received: 500 in 1.36 seconds
+2024-12-16 10:05:45,813 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:05:47,742 - INFO - Response received: 200 in 1.93 seconds
+2024-12-16 10:06:09,960 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:06:16,734 - INFO - Response received: 200 in 6.77 seconds
+2024-12-16 10:06:23,493 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:06:25,849 - INFO - Response received: 200 in 2.36 seconds
+2024-12-16 10:06:25,977 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:06:32,049 - INFO - Response received: 200 in 6.07 seconds
+2024-12-16 10:06:39,696 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:06:41,059 - INFO - Response received: 200 in 1.36 seconds
+2024-12-16 10:07:50,943 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 10:07:57,181 - INFO - Response received: 500 in 6.23 seconds
+2024-12-16 10:09:25,500 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:09:31,397 - INFO - Response received: 200 in 5.89 seconds
+2024-12-16 10:09:31,541 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=4ylma3m8sntqpGCOi0BXoR2LgQnUKXoq4PEMiaz0Lecc%2f7PmLtPgJAMIpN7TYYQ%2fxXclp5%2fu19C64rptX7X0U2ymFqm4MU%2fr6izzuBxmXCM%3d
+2024-12-16 10:09:38,994 - INFO - Response received: 200 in 7.45 seconds
+2024-12-16 10:09:45,954 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:09:47,394 - INFO - Response received: 200 in 1.44 seconds
+2024-12-16 10:09:47,396 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:09:48,798 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 10:09:48,801 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:09:50,723 - INFO - Response received: 200 in 1.92 seconds
+2024-12-16 10:09:56,871 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:10:02,720 - INFO - Response received: 200 in 5.85 seconds
+2024-12-16 10:10:10,197 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:10:11,600 - INFO - Response received: 200 in 1.40 seconds
+2024-12-16 10:10:39,991 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 10:10:41,439 - INFO - Response received: 200 in 1.45 seconds
+2024-12-16 10:13:03,716 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:13:09,796 - INFO - Response received: 200 in 5.86 seconds
+2024-12-16 10:13:09,931 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=f%2bGoWBZ0RVMty7t34gZIAbindyQKFSzNj9LN%2fLMNe2iUmjJKAA8tMDFGYAK3zrmZPsAjjYfEosWrS2LcR51AbVrb08tJ%2boDCvR00m200l6g%3d
+2024-12-16 10:13:16,356 - INFO - Response received: 200 in 6.42 seconds
+2024-12-16 10:13:22,759 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2024-12-16 10:13:24,196 - INFO - Response received: 200 in 1.44 seconds
+2024-12-16 10:13:24,197 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2024-12-16 10:13:25,919 - INFO - Response received: 200 in 1.72 seconds
+2024-12-16 10:13:25,921 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:13:27,807 - INFO - Response received: 200 in 1.88 seconds
+2024-12-16 10:13:40,551 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:13:47,717 - INFO - Response received: 200 in 7.16 seconds
+2024-12-16 10:13:55,392 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:13:56,836 - INFO - Response received: 200 in 1.44 seconds
+2024-12-16 10:13:56,892 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:14:04,468 - INFO - Response received: 200 in 7.58 seconds
+2024-12-16 10:14:10,915 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:14:12,560 - INFO - Response received: 200 in 1.65 seconds
+2024-12-16 10:14:12,645 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:14:23,384 - INFO - Response received: 200 in 10.74 seconds
+2024-12-16 10:14:29,955 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:14:31,685 - INFO - Response received: 200 in 1.73 seconds
+2024-12-16 10:14:31,807 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2024-12-16 10:14:39,334 - INFO - Response received: 200 in 7.53 seconds
+2024-12-16 10:14:46,694 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2024-12-16 10:14:48,392 - INFO - Response received: 200 in 1.70 seconds
+2024-12-16 10:14:48,393 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:14:50,516 - INFO - Response received: 200 in 2.12 seconds
+2024-12-16 10:14:50,517 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=zNeXye%2bxB6JfbS39PmZ6VrnenKuWbgBfPAz1O%2bcWYWtr8sJRpbU0iKbjkI5TJ7untRwWGuPw5r%2bWT1zGxkSD5AhLmbuNu5bgbPuG3aIdjlcUzbjduRaDG4bLIppwLp7N2MUe2q8IlIJfrJuI7V8hAFb8p3NYwDq3ZoKxAPN5%2b7c%3d
+2024-12-16 10:14:54,873 - INFO - Response received: 200 in 4.36 seconds
+2024-12-16 10:14:55,259 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=zNeXye%2bxB6JfbS39PmZ6VrnenKuWbgBfPAz1O%2bcWYWtr8sJRpbU0iKbjkI5TJ7untRwWGuPw5r%2bWT1zGxkSD5AhLmbuNu5bgbPuG3aIdjlcUzbjduRaDG4bLIppwLp7N2MUe2q8IlIJfrJuI7V8hAFb8p3NYwDq3ZoKxAPN5%2b7c%3d
+2024-12-16 10:14:56,992 - INFO - Response received: 200 in 1.73 seconds
+2024-12-16 10:14:56,993 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2024-12-16 10:15:00,753 - INFO - Response received: 200 in 3.76 seconds
+2024-12-16 10:15:15,943 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2024-12-16 10:15:17,398 - INFO - Response received: 500 in 1.45 seconds
+2025-01-24 15:22:08,107 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:10,142 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:11,143 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:14,648 - ERROR -  General Request error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 15:22:14,648 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:16,738 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:17,738 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:19,787 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:20,787 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:21,792 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:22,792 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:23,959 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:24,959 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:26,077 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:27,078 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:28,682 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:29,682 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:30,549 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:31,549 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:32,608 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:33,608 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:34,743 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:35,743 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:46,406 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:47,407 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:54,563 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:55,563 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:22:58,794 - ERROR - SSL error. Retrying...
+2025-01-24 15:22:59,794 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:00,943 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:01,943 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:02,931 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:03,932 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:05,348 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:06,348 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:07,498 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:08,498 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:09,751 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:10,751 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:11,869 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:12,869 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:13,967 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:14,968 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:16,045 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:17,046 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:18,128 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:19,128 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:20,225 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:21,226 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:22,347 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:23,348 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:24,293 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:25,293 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:26,416 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:27,417 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:29,106 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:30,106 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:31,098 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:32,098 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:33,001 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:34,001 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:34,801 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:35,802 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:38,008 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:39,009 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:40,165 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:41,166 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:42,215 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:43,215 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:44,797 - ERROR - SSL error. Retrying...
+2025-01-24 15:23:45,798 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 15:23:46,911 - ERROR - SSL error. Retrying...
+2025-01-24 18:07:58,489 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:01,090 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:02,091 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:03,171 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:04,171 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:05,263 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:06,264 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:07,435 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:08,436 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:09,591 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:10,591 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:11,634 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:12,635 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:13,685 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:14,686 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:15,667 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:16,667 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:17,895 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:18,895 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:19,763 - ERROR - SSL error. Retrying...
+2025-01-24 18:08:20,763 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:08:22,289 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:30,113 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:31,157 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:32,158 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:33,150 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:34,151 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:35,198 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:36,199 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:37,400 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:38,401 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:39,272 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:40,272 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:41,292 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:42,292 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:43,237 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:44,237 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:45,117 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:46,117 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:47,199 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:48,200 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:49,111 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:50,112 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:51,328 - ERROR - SSL error. Retrying...
+2025-01-24 18:11:52,328 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-24 18:11:53,144 - ERROR - SSL error. Retrying...
+2025-01-30 06:41:53,871 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-30 06:41:59,570 - INFO - Response received: 200 in 5.67 seconds
+2025-01-30 06:42:03,629 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=MBcj%2ftFr0biKgM2znjHCVGyf3aeod705y9AX0n%2f1k6d5DFsl7NlLVDqCHKy6aRZh%2byk6Nl%2bl28NrlKjcZnaKrvCkPBfGEu3Au5pX70P9tC8%3d
+2025-01-30 06:42:07,275 - INFO - Response received: 200 in 3.65 seconds
+2025-01-30 06:58:36,271 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-30 06:58:44,244 - INFO - Response received: 200 in 7.97 seconds
+2025-01-30 06:58:44,302 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=XsjVZMItFHOCu1WH6jO%2fZ5zacd2VZoG3SE7JTSCDNtLQ46D9d2hxWecdh3PqnnG2cUq%2bkycOnzAULU6qzApzGL0D5PCTJvU8w1TWshbJ%2f6A%3d
+2025-01-30 06:58:47,327 - INFO - Response received: 200 in 3.02 seconds
+2025-01-30 07:15:15,658 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-01-30 07:15:25,502 - INFO - Response received: 200 in 9.84 seconds
+2025-01-30 07:15:25,572 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=rb9N7zLBbGZDw8yBbHXrXWeBE0hRQbAe2Or%2b1KgR7PqlPgzxG7cQH8lz1MZ%2fjoq9FbOXToydCtUUd%2bwjryXep9WQwSjm2MpcybpC0QfLfPo%3d
+2025-01-30 07:16:24,334 - INFO - Response received: 200 in 58.76 seconds
+2025-02-03 09:06:05,740 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-03 09:06:36,641 - ERROR - Timeout error. Retrying...
+2025-02-03 09:06:36,641 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-03 09:06:46,495 - INFO - Response received: 200 in 9.85 seconds
+2025-02-03 09:06:46,556 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Wu6fKpYbpT8WRSa6cEmWuGmna4Os0%2fNvpqcPJLm%2bt6rCyEZcsLSpHIWiZGgWfaAoZLZcDk6EVL7VS%2bH87KF22cZDofwJXNBCbrFIPuuiD2I%3d
+2025-02-03 10:48:00,094 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-03 10:48:06,996 - INFO - Response received: 200 in 6.90 seconds
+2025-02-03 10:48:07,315 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=KnyvgzT%2ffYh7tnGmtxSYYl4Hwv%2bl1v5CF5u8s9ONnUy3DhnrjBh9VzNZmcUGvU2i6IyrO1E45bPL9q8xjF4mqX%2fQcudi7jI4kMcvQPMeCH0%3d
+2025-02-03 10:48:12,136 - INFO - Response received: 200 in 4.82 seconds
+2025-02-04 17:13:21,174 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 17:13:29,000 - INFO - Response received: 403 in 7.83 seconds
+2025-02-04 17:13:29,000 - ERROR - Forbidden (403) encountered
+2025-02-04 17:13:54,073 - INFO - 403 not fixed in 25.07 seconds. redirecting...
+2025-02-04 17:13:54,073 - ERROR - An error occurred: Logining in afresh
+2025-02-04 17:13:54,074 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 17:14:00,374 - INFO - Response received: 200 in 6.30 seconds
+2025-02-04 17:14:00,435 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=rTsiE22ivF1po7H%2fhREq%2b%2bayrdsBvJar%2beCQYAAk3eVYubeFKnb3gqm8Jb1HzYcHfqbVxNPGK7Zo%2fEdopPAL%2bqqm1ovc40%2bNuC6wEttx8rM%3d
+2025-02-04 17:14:10,326 - INFO - Response received: 200 in 9.89 seconds
+2025-02-04 17:32:05,659 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 17:32:36,713 - ERROR - Timeout error. Retrying...
+2025-02-04 17:32:36,713 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 17:32:46,300 - INFO - Response received: 200 in 9.59 seconds
+2025-02-04 17:32:46,368 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=%2ffxFnKNvrZCAx8sM306hEBn%2bL4LnhZoe5dhdS69KansPk8jJKRj3MMir5ltrSc2ks5FSQKWEPEk4YsCl8S1EZkr8jNtDL95NKD3Ig8I7WAI%3d
+2025-02-04 17:33:17,802 - INFO - Response received: 200 in 31.43 seconds
+2025-02-04 17:42:05,826 - INFO - Requesting: GET https://io.dexscreener.com/dex/log/amm/v4/solamm/all/solana/Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw?q=So11111111111111111111111111111111111111112&c=1
+2025-02-04 17:42:07,352 - INFO - Response received: 403 in 1.52 seconds
+2025-02-04 17:42:07,352 - ERROR - Forbidden (403) encountered
+2025-02-04 17:42:20,141 - INFO - 403 not fixed in 12.79 seconds. redirecting...
+2025-02-04 17:42:20,141 - ERROR - An error occurred: Logining in afresh
+2025-02-04 18:15:27,624 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 18:15:41,885 - INFO - Response received: 200 in 14.26 seconds
+2025-02-04 18:15:41,957 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=nIArq5DJjijfhwRv5y2CNjVqg1%2fcWJVOlRz1Vn%2faVC%2boTOKNI2ykaT%2fuwbgmuxzXAVZQP%2bDAdxhWtwHcf053d7weKo9ej0QVsSm7IfMfkIE%3d
+2025-02-04 18:16:59,333 - INFO - Response received: 200 in 77.38 seconds
+2025-02-04 18:19:14,551 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-02-04 18:19:24,505 - INFO - Response received: 200 in 9.95 seconds
+2025-02-04 18:19:24,573 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=dds4xJNjkpXZ6XDedRgLnFizx3t4N%2f1kvShEq%2fA2NAYkDyDT8AiadjN5KdLUAQNcVFuWKKb5U2oJWMU9FihD62S6D%2fUNV%2fCRzCcY2gNasGU%3d
+2025-02-04 18:19:53,852 - INFO - Response received: 200 in 29.28 seconds
+2025-03-01 02:53:07,797 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 02:53:16,393 - INFO - Response received: 200 in 8.59 seconds
+2025-03-01 02:53:16,479 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=oPx2hTZAbeVMLLcDJJvlNvLgYCINOO%2bJLliiS7xolV9ewjcSk%2bFgKI4ovnA70tOY7pBRF6Bzfc%2be6BhfylNW22xXlPXsipG1iXjnwnDz%2bxQ%3d
+2025-03-01 02:53:48,002 - INFO - Response received: 200 in 31.52 seconds
+2025-03-01 02:56:02,098 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 02:56:14,158 - INFO - Response received: 200 in 12.06 seconds
+2025-03-01 02:56:14,327 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=alElxuaA9%2bz6h4a1Zd%2fXS1hILJZAZEXMiN2k7K5hPjY4eiHukH9ETu4OZq%2fZFh4vV5BTHvR7RvdNw4OBvWByYjf4%2bo26TglBLq6k7eYmhac%3d
+2025-03-01 02:58:55,478 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 02:59:05,910 - INFO - Response received: 200 in 10.43 seconds
+2025-03-01 02:59:05,991 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=0VMWC8Q%2bQwhRdMU3nwUho1zCmhfoEKBlcq0TqhW26Dij%2bEaP%2bjRI9Rnr%2frmnzZ9WISGV8G5xOytmTY9J%2b%2fCtoPIyPlezVbed2JptMNBHJFA%3d
+2025-03-01 02:59:54,274 - INFO - Response received: 200 in 48.28 seconds
+2025-03-01 03:16:59,585 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 03:17:04,947 - INFO - Response received: 200 in 5.36 seconds
+2025-03-01 03:17:04,988 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=cPSgr7TNdihDjuM6Cq1ELHSv6hE0ELNx5jmopHgODORbIBKvB2JHh6IBjekGm2zie0eeJ%2fraQdtmoQLq1sRwHvwVL3n5wLPR7vQ%2bVfyIlVM%3d
+2025-03-01 03:17:08,636 - INFO - Response received: 200 in 3.65 seconds
+2025-03-01 03:32:45,725 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 03:32:55,411 - INFO - Response received: 200 in 9.69 seconds
+2025-03-01 03:32:55,439 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Msaa8q%2brOwTxWuA%2bGvtgfn4JS3ptm05%2bziotCx2uUEk%2fKXRK%2bfZy2JCk566xIOrwPSDzcjrcLkVyVy%2bmn%2bOZCqNcsLgOFUJ%2f0QK36UKEI6s%3d
+2025-03-01 03:33:34,219 - INFO - Response received: 200 in 38.78 seconds
+2025-03-01 13:27:16,086 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:27:42,387 - INFO - Response received: 200 in 26.30 seconds
+2025-03-01 13:27:42,464 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Cw3bCM6vaFfbFkU8vU03CSVeA4XkQY7FmT533dB9212AnMrja7uMAY3tIdnDi1OvsRWRi%2blu0B488bYYCT10EwLyDjH0ZWRBtRDCuwZ3n%2bA%3d
+2025-03-01 13:28:20,700 - ERROR -  General Request error: Response ended prematurely
+2025-03-01 13:28:20,700 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Cw3bCM6vaFfbFkU8vU03CSVeA4XkQY7FmT533dB9212AnMrja7uMAY3tIdnDi1OvsRWRi%2blu0B488bYYCT10EwLyDjH0ZWRBtRDCuwZ3n%2bA%3d
+2025-03-01 13:29:28,672 - INFO - Response received: 200 in 67.97 seconds
+2025-03-01 13:38:10,605 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:38:24,073 - INFO - Response received: 200 in 13.47 seconds
+2025-03-01 13:38:24,075 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:38:27,499 - INFO - Response received: 200 in 3.42 seconds
+2025-03-01 13:38:27,503 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:38:34,275 - INFO - Response received: 200 in 6.77 seconds
+2025-03-01 13:38:34,348 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=23qbgOmF9Ne%2fCAzZtpu82KDdms1UV4afDem0tNK75lDPwgR09Ez7ue%2bEqA3YRpvSNHVIxQPN2GocCi02zMXkk2k0%2f%2bDWCEjkOVWkcypYWrU%3d
+2025-03-01 13:39:28,449 - INFO - Response received: 200 in 54.10 seconds
+2025-03-01 13:39:32,132 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:39:33,969 - INFO - Response received: 200 in 1.84 seconds
+2025-03-01 13:39:33,970 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:39:35,703 - INFO - Response received: 200 in 1.73 seconds
+2025-03-01 13:39:35,705 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:39:47,147 - INFO - Response received: 200 in 11.44 seconds
+2025-03-01 13:39:47,223 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=yBHwvulS4V560hBxW7AUTIh9Tay%2fuOQG1eC3gA%2bsOD12ZFDRSQORUKiMcOnjiuJ54qWvLWoe%2b%2fBEX%2fPKR8oIaZO1L2xi8jEu3n9nzrDEHpw%3d
+2025-03-01 13:40:29,456 - INFO - Response received: 200 in 42.23 seconds
+2025-03-01 13:40:33,137 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:40:34,882 - INFO - Response received: 200 in 1.74 seconds
+2025-03-01 13:40:34,882 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:40:37,136 - INFO - Response received: 200 in 2.25 seconds
+2025-03-01 13:40:37,138 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:41:02,830 - INFO - Response received: 200 in 25.69 seconds
+2025-03-01 13:41:02,903 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=OW9XrEW39iHhMD1%2f%2b%2fxAG6SmxfAzBj2iqFd10fhe6oLitUzy6W6HUj64Nojm4SDkIHBQN7HDo3e3Mck0NsVv7DHgsM2PC8p6iPGWJOM3BYc%3d
+2025-03-01 13:43:57,903 - INFO - Response received: 200 in 175.00 seconds
+2025-03-01 13:44:01,353 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:44:03,430 - INFO - Response received: 200 in 2.08 seconds
+2025-03-01 13:44:03,431 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:44:05,480 - INFO - Response received: 200 in 2.05 seconds
+2025-03-01 13:44:05,481 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:44:50,940 - INFO - Response received: 200 in 45.46 seconds
+2025-03-01 13:44:51,011 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=UBd%2f3jsHi4BLPgAzVJIDeWaNBEy7PjIbr5bgTNKBaeDWsH5zzP9OfNyHgP7VhYHa%2frJaMeLlq3dLjhMtATdm9gwQVMEkrASzhLI0EsukXrc%3d
+2025-03-01 13:46:38,930 - INFO - Response received: 200 in 107.92 seconds
+2025-03-01 13:46:42,722 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:46:48,221 - INFO - Response received: 200 in 5.50 seconds
+2025-03-01 13:46:48,252 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=UBd%2f3jsHi4BLPgAzVJIDeWaNBEy7PjIbr5bgTNKBaeDWsH5zzP9OfNyHgP7VhYHa%2frJaMeLlq3dLjhMtATdm9gwQVMEkrASzhLI0EsukXrc%3d
+2025-03-01 13:49:30,573 - INFO - Response received: 200 in 162.32 seconds
+2025-03-01 13:49:34,009 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:49:36,494 - INFO - Response received: 200 in 2.49 seconds
+2025-03-01 13:49:36,495 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:49:38,750 - INFO - Response received: 200 in 2.25 seconds
+2025-03-01 13:49:38,751 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:49:54,518 - INFO - Response received: 200 in 15.77 seconds
+2025-03-01 13:49:54,590 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ix%2fXevN7yemcRNbIZIaJv5DlcRXSMeT5l%2fVN%2fZ%2bWFvZeHLmcKXJeqQt8ue%2fa%2bd%2fLY4LoztFja32%2bRDfR7K5VOP7ZbRlPLpVrGy7j%2fp6i2bg%3d
+2025-03-01 13:51:02,513 - INFO - Response received: 200 in 67.92 seconds
+2025-03-01 13:51:06,643 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-01 13:51:08,044 - INFO - Response received: 200 in 1.40 seconds
+2025-03-01 13:51:08,044 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:51:09,679 - INFO - Response received: 200 in 1.63 seconds
+2025-03-01 13:51:09,680 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-01 13:51:16,540 - INFO - Response received: 403 in 6.86 seconds
+2025-03-01 13:51:16,540 - ERROR - Forbidden (403) encountered
+2025-03-05 15:14:05,083 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:15:08,644 - ERROR - Timeout error. Retrying...
+2025-03-05 15:15:08,644 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:15:43,551 - INFO - Response received: 200 in 34.91 seconds
+2025-03-05 15:15:43,589 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ps84KLOGd%2fvS1HxxP3xGT4Ajg%2b%2fJC8awHfun%2fA45U%2bGYpuO1XgyvNcq3tuNNnHVEGJNTd3tWI4msWTfqrU%2frR4Z4O9eVDYsGGruArjai9Z0%3d
+2025-03-05 15:18:06,807 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:18:06,807 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ps84KLOGd%2fvS1HxxP3xGT4Ajg%2b%2fJC8awHfun%2fA45U%2bGYpuO1XgyvNcq3tuNNnHVEGJNTd3tWI4msWTfqrU%2frR4Z4O9eVDYsGGruArjai9Z0%3d
+2025-03-05 15:18:49,915 - ERROR - Timeout error. Retrying...
+2025-03-05 15:18:49,915 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ps84KLOGd%2fvS1HxxP3xGT4Ajg%2b%2fJC8awHfun%2fA45U%2bGYpuO1XgyvNcq3tuNNnHVEGJNTd3tWI4msWTfqrU%2frR4Z4O9eVDYsGGruArjai9Z0%3d
+2025-03-05 15:19:33,820 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:19:33,820 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ps84KLOGd%2fvS1HxxP3xGT4Ajg%2b%2fJC8awHfun%2fA45U%2bGYpuO1XgyvNcq3tuNNnHVEGJNTd3tWI4msWTfqrU%2frR4Z4O9eVDYsGGruArjai9Z0%3d
+2025-03-05 15:22:35,828 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:23:22,195 - INFO - Response received: 200 in 46.37 seconds
+2025-03-05 15:23:22,232 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=rcHeDiRoE2beuILXHHj5N%2bWQCX6FJjuaEoKmOy3UmjgvTbwgMEDrWyYYFPGwXIEf8L8yQrmzWfMeCObFBpDLAzBpJoUA8099FkOQNCWzN1A%3d
+2025-03-05 15:24:37,754 - INFO - Response received: 200 in 75.52 seconds
+2025-03-05 15:24:42,458 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-05 15:25:01,878 - INFO - Response received: 200 in 19.42 seconds
+2025-03-05 15:25:01,879 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:25:20,263 - INFO - Response received: 200 in 18.38 seconds
+2025-03-05 15:25:20,271 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:26:21,187 - INFO - Response received: 200 in 60.92 seconds
+2025-03-05 15:26:21,225 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=U2esB8SgVp23U%2bwgauLZXR0i%2biEwd9o%2b71oMuV1vSptkXiT44KLn3r46jPJtDPJWqEWO%2b0Zai%2bFYxLzKSkMmwOqoAHJW0hf0FVaWite2Zeo%3d
+2025-03-05 15:27:12,593 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:27:12,593 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=U2esB8SgVp23U%2bwgauLZXR0i%2biEwd9o%2b71oMuV1vSptkXiT44KLn3r46jPJtDPJWqEWO%2b0Zai%2bFYxLzKSkMmwOqoAHJW0hf0FVaWite2Zeo%3d
+2025-03-05 15:30:45,789 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 15:31:07,427 - INFO - Response received: 200 in 21.63 seconds
+2025-03-05 15:31:07,507 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=SAzh3zP%2bzt6jiiLLWh2JSagUtcH8xAlSDvBzjxllaSRZrg4Woyur8kA38KPkBKq2wjeXUMn9c2xYUHVGwi8UiCKzRePVy8zpJW77HfhklSQ%3d
+2025-03-05 15:32:53,480 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:32:53,481 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=SAzh3zP%2bzt6jiiLLWh2JSagUtcH8xAlSDvBzjxllaSRZrg4Woyur8kA38KPkBKq2wjeXUMn9c2xYUHVGwi8UiCKzRePVy8zpJW77HfhklSQ%3d
+2025-03-05 15:34:24,224 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:34:24,225 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=SAzh3zP%2bzt6jiiLLWh2JSagUtcH8xAlSDvBzjxllaSRZrg4Woyur8kA38KPkBKq2wjeXUMn9c2xYUHVGwi8UiCKzRePVy8zpJW77HfhklSQ%3d
+2025-03-05 15:36:25,563 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:36:25,563 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=SAzh3zP%2bzt6jiiLLWh2JSagUtcH8xAlSDvBzjxllaSRZrg4Woyur8kA38KPkBKq2wjeXUMn9c2xYUHVGwi8UiCKzRePVy8zpJW77HfhklSQ%3d
+2025-03-05 15:38:29,992 - ERROR -  General Request error: HTTPSConnectionPool(host='ita-pak.blsinternational.com', port=443): Read timed out.
+2025-03-05 15:38:29,993 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=SAzh3zP%2bzt6jiiLLWh2JSagUtcH8xAlSDvBzjxllaSRZrg4Woyur8kA38KPkBKq2wjeXUMn9c2xYUHVGwi8UiCKzRePVy8zpJW77HfhklSQ%3d
+2025-03-05 15:39:36,424 - INFO - Response received: 200 in 66.43 seconds
+2025-03-05 15:39:36,723 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-05 15:39:39,086 - INFO - Response received: 500 in 2.36 seconds
+2025-03-05 15:39:39,099 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 23:58:26,458 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 23:58:59,154 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-05 23:59:08,825 - INFO - Response received: 200 in 42.36 seconds
+2025-03-05 23:59:08,887 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=rv8Ra4%2b8SvHa1xP9V%2bsD0HrreXWqpPypN32TAcged9AOVvl%2bz5ePmATE2AdI4rV1GNoCIdslJ8gy%2bOhZtk3IBtZQnlt54hxVR%2bh5t6YnHFk%3d
+2025-03-05 23:59:14,980 - INFO - Response received: 200 in 15.82 seconds
+2025-03-05 23:59:15,061 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=J0ySREn4f4KV88sNZtqzW8rVADM38gFJ0ImmINW1dmuvTD5pT0IUVxMAWtx0K68GvGEToc2%2bxZJ0gvOjG%2b4a9yZFfOjEvecy5xJvYMejLLQ%3d
+2025-03-05 23:59:55,412 - INFO - Response received: 200 in 40.35 seconds
+2025-03-05 23:59:55,950 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-05 23:59:57,822 - INFO - Response received: 500 in 1.87 seconds
+2025-03-05 23:59:57,834 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:00:38,996 - INFO - Response received: 200 in 41.16 seconds
+2025-03-06 00:00:39,048 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=nzeilTBeTFHJwW40xD6vObkKBR40uJ9CgVeuDKqOe2HbqeBL0dXXkHj%2blPJeLjrPPIKIsCYTmyQvYtvV1KozhZUk5l1d7EcYU3L%2fZy7XNP4%3d
+2025-03-06 00:09:02,155 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:09:02,217 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:09:02,248 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:09:12,166 - INFO - Response received: 200 in 9.95 seconds
+2025-03-06 00:09:12,229 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=aWtHjr4Wb98ABHzw0APzO5XZzVmVlRlTI%2bDf2XXNBQNcrM3Q5R5i%2by12ZdUdNJZYYvSezqDHKLKRz6p4D8RgPlv1jpWqjErY8qGTnXk5hg8%3d
+2025-03-06 00:09:14,109 - INFO - Response received: 403 in 11.86 seconds
+2025-03-06 00:09:14,110 - ERROR - Forbidden (403) encountered
+2025-03-06 00:09:22,794 - INFO - Response received: 200 in 20.64 seconds
+2025-03-06 00:09:22,855 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=jT5bytihj5vX9V8Ht%2fPms9H7Id2zm8cgK7b3B9Xaco1WhWXhi%2fcAkQKjCjPhY2xgXZjIXAPv7CAw8QAhJYmKFJUIl8fQ6lMvqwuctQc9a9Q%3d
+2025-03-06 00:09:36,933 - INFO - 403 not fixed in 22.82 seconds. redirecting...
+2025-03-06 00:09:36,933 - ERROR - An error occurred: Logining in afresh
+2025-03-06 00:09:36,934 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:09:44,134 - INFO - Response received: 200 in 31.90 seconds
+2025-03-06 00:09:44,512 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:09:45,926 - INFO - Response received: 500 in 1.41 seconds
+2025-03-06 00:09:45,932 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:09:47,722 - INFO - Response received: 200 in 10.79 seconds
+2025-03-06 00:09:47,788 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=EaBecTjylJwBJ0plFTg3Ly2kouVkpQ%2bM83UqLXitsYtmwbhQsGCpLvBqr9FMH4fJRQUYWcjL%2bdSK71cdYhTH7TcTmm3XFwlcQXrYL9zGKF0%3d
+2025-03-06 00:09:54,874 - INFO - Response received: 200 in 8.94 seconds
+2025-03-06 00:09:54,948 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=UVQtnL6Y99%2bVntJEqojyu2wKdNtm4YrW4N7z2V5pe7wfOxZKQ0wj55KNlqLJqJH%2bhr0LVTLx6Rr%2bAvWjELfSx3L2k8xyAyZ6X0tSNJGQQS0%3d
+2025-03-06 00:10:24,756 - INFO - Response received: 200 in 29.81 seconds
+2025-03-06 00:10:25,098 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:10:26,703 - INFO - Response received: 500 in 1.60 seconds
+2025-03-06 00:10:26,705 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:10:31,924 - INFO - Response received: 200 in 44.14 seconds
+2025-03-06 00:10:32,408 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:10:33,916 - INFO - Response received: 500 in 1.51 seconds
+2025-03-06 00:10:33,924 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:10:49,221 - INFO - Response received: 200 in 15.30 seconds
+2025-03-06 00:10:49,277 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=fqicT6R6zsxQ7sfGOID1f2A5bp3at3ndN79SgtNZnTn2No0HroNW6D0rto0F6u0m9fT5HCCSNwKF2xpIFLZN%2fgOLY%2feJQi73oJbIdiEvxEs%3d
+2025-03-06 00:10:52,121 - INFO - Response received: 200 in 25.42 seconds
+2025-03-06 00:10:52,177 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=6ccYwrT2%2fSc7iSaeRiQ5S43vESdJ1An%2bBsyTWBgX9RgUHFwFKHgcwGsGtxEinDuQ0yDAS1QYrWhVWdV1E7TvExC2hRKJfxCOACI%2fDKJdQUk%3d
+2025-03-06 00:11:28,001 - INFO - Response received: 200 in 125.15 seconds
+2025-03-06 00:11:28,453 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:11:29,800 - INFO - Response received: 200 in 40.52 seconds
+2025-03-06 00:11:30,204 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:11:30,519 - INFO - Response received: 500 in 2.07 seconds
+2025-03-06 00:11:30,526 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:11:32,667 - INFO - Response received: 500 in 2.46 seconds
+2025-03-06 00:11:32,670 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:11:37,896 - INFO - Response received: 502 in 5.23 seconds
+2025-03-06 00:11:37,896 - ERROR - Bad Gateway (502) encountered. Retrying...
+2025-03-06 00:13:46,476 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:13:57,571 - INFO - Response received: 200 in 11.09 seconds
+2025-03-06 00:13:57,646 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=v%2b4uFrHFr51HvaIidVLg7L%2faATU9EvL32bVsxgRRT8c3YA8pm8hNHulWkwTYsdsGTTzZ6D3QvIK3h89TdIFBIrHXhAcThLhGVzLUUHy5yQI%3d
+2025-03-06 00:14:48,999 - INFO - Response received: 200 in 51.35 seconds
+2025-03-06 00:14:49,465 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:14:51,152 - INFO - Response received: 500 in 1.69 seconds
+2025-03-06 00:14:51,158 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:23:31,287 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:24:01,305 - ERROR - Proxy connection failed. Retrying...
+2025-03-06 00:24:02,306 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:24:39,638 - INFO - Response received: 200 in 37.33 seconds
+2025-03-06 00:24:39,722 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=CHeRsN5IqsDHtG0UGE2BSVK%2bE%2fRS2IRE%2fIZigHBBiHrWpevMiBjqjHDPed6f65y%2fd%2f5jzQokFbavAByks%2bqw%2fQXQ0fJpyg3IsXdMwo6AkHU%3d
+2025-03-06 00:25:35,811 - INFO - Response received: 200 in 56.09 seconds
+2025-03-06 00:25:36,221 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:26:12,237 - ERROR - Timeout error. Retrying...
+2025-03-06 00:26:12,237 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:27:30,325 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:30:07,220 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:30:19,663 - INFO - Response received: 200 in 12.44 seconds
+2025-03-06 00:30:19,756 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=%2fZ9vzAZ24cogrwF%2bW0Sx5Hx4YBeR9hq%2fkL7xx4nyGQwbLeIV5nVd8Rgmepw7VeODdkw1JY7p8e4NSog33FW6yPPc1MxdYrjv7xDrk1n70%2bs%3d
+2025-03-06 00:30:58,877 - INFO - Response received: 200 in 39.12 seconds
+2025-03-06 00:31:04,772 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 00:31:07,889 - INFO - Response received: 200 in 3.12 seconds
+2025-03-06 00:31:07,889 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:31:11,881 - INFO - Response received: 200 in 3.99 seconds
+2025-03-06 00:31:11,886 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 00:31:25,909 - INFO - Response received: 200 in 14.02 seconds
+2025-03-06 00:31:25,983 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=MlYX%2fe77MV0rFoZt%2bbBj9nl7tjejQI5JDdCGKMvju9DbUHWVbo1p%2bagylA1Jr51u4fIEJaKDIcJiPdeMBchbCTts0%2bbZNQSbf%2bRX%2fZP9sV4%3d
+2025-03-06 10:34:35,211 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:35,465 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:35,469 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:35,523 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:36,133 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:42,694 - INFO - Response received: 403 in 7.23 seconds
+2025-03-06 10:34:42,695 - ERROR - Forbidden (403) encountered
+2025-03-06 10:34:42,987 - INFO - Response received: 200 in 7.51 seconds
+2025-03-06 10:34:43,052 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=w5xSvI6SOl6vi8Iy5R8bdClf0mSYUjkNNJKQNvssPnvdNnKLc4p%2bFhFu3D7HYEBlT5bIwRumG8f7VrjPkXigGEflXsfClD2UJoyw80IH%2bs8%3d
+2025-03-06 10:34:46,044 - INFO - Response received: 200 in 10.80 seconds
+2025-03-06 10:34:46,126 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=vLrKA0%2fJbAMu5ZMRvEVyoonySgtdI%2bY8IQYtR2Sd%2b8plky3B%2b9ta7%2fgS8gbASa6ddTYYKgTULU6LRMyucBAmPEqSMA3HVuK31JtJ87Wuy80%3d
+2025-03-06 10:34:46,371 - INFO - Response received: 200 in 3.32 seconds
+2025-03-06 10:34:48,109 - INFO - Response received: 200 in 11.97 seconds
+2025-03-06 10:34:48,223 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=qgNFFZLXRBakNAfXKDnt38yfSOeWYAxdVZx5tc%2f4bRKv2PceSKpayMrihmOUp5s8DLYMeXQRVxDi83y0XGpIyQB0LyMu%2biW4nK7B67VQD%2f4%3d
+2025-03-06 10:34:49,511 - INFO - Response received: 200 in 13.99 seconds
+2025-03-06 10:34:49,599 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=tcUA%2fDOEsbPYHtWP1R72tUf%2fc4lEySdk9v0LA38gx%2fkKcA7iZdnw19ba0L%2fefSx%2f%2fVpBH2suiuvQRA%2fgF7MT6%2fB64dDmxPj%2fcs49%2bdg21jQ%3d
+2025-03-06 10:34:52,295 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:34:53,875 - INFO - Response received: 200 in 1.58 seconds
+2025-03-06 10:34:53,876 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:34:55,890 - INFO - Response received: 200 in 2.01 seconds
+2025-03-06 10:34:55,899 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:00,702 - INFO - Response received: 403 in 4.80 seconds
+2025-03-06 10:35:00,702 - ERROR - Forbidden (403) encountered
+2025-03-06 10:35:02,955 - INFO - 403 not fixed in 20.26 seconds. redirecting...
+2025-03-06 10:35:02,955 - ERROR - An error occurred: Logining in afresh
+2025-03-06 10:35:02,955 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:08,046 - INFO - Response received: 200 in 21.92 seconds
+2025-03-06 10:35:13,408 - INFO - 403 fixed in: 200 in 12.71 seconds
+2025-03-06 10:35:13,527 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Em28iwXXzBg0Q75j0muxv%2fBuUM5q%2fwdChfqfCRgLn6Feb83u8ZiDLU4nNRFB1f28ZWNmMQGtDx3Gja2b0jAGG50D7Y53HK2xI2ubJoAPe6k%3d
+2025-03-06 10:35:13,797 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:35:15,101 - INFO - Response received: 200 in 1.30 seconds
+2025-03-06 10:35:15,102 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:15,456 - INFO - Response received: 200 in 12.50 seconds
+2025-03-06 10:35:15,532 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=7t6%2fCCkaYGZ4bC%2fpB%2fV264mjIH0cZpPojEILRjAJI3LonX30U8t39yaBE%2biRcjqhS1x4saz6RpLyrMvqxBKflypB06%2f9zMvC%2feqKHtA0NI8%3d
+2025-03-06 10:35:16,828 - INFO - Response received: 200 in 1.73 seconds
+2025-03-06 10:35:16,833 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:26,648 - INFO - Response received: 200 in 9.82 seconds
+2025-03-06 10:35:26,704 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=BijK4iX0t9k1rVPBNfp7QWfl7lYNpi7wYD%2bYtAtgsBzoLG2Lwtx0yoOJ9mtEBZUPocBbFdppSqeYVDQHhlA577p8kVkwj4gC%2b1uGM2Dwe08%3d
+2025-03-06 10:35:26,713 - INFO - Response received: 200 in 13.19 seconds
+2025-03-06 10:35:28,409 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:33,301 - INFO - Response received: 403 in 4.89 seconds
+2025-03-06 10:35:33,301 - ERROR - Forbidden (403) encountered
+2025-03-06 10:35:49,446 - INFO - Response received: 200 in 59.85 seconds
+2025-03-06 10:35:53,738 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:35:54,368 - INFO - 403 not fixed in 21.07 seconds. redirecting...
+2025-03-06 10:35:54,368 - ERROR - An error occurred: Logining in afresh
+2025-03-06 10:35:54,368 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:55,818 - INFO - Response received: 200 in 2.08 seconds
+2025-03-06 10:35:55,819 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:57,331 - INFO - Response received: 200 in 1.51 seconds
+2025-03-06 10:35:57,336 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:35:59,480 - INFO - Response received: 200 in 71.26 seconds
+2025-03-06 10:36:05,020 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:36:06,241 - INFO - Response received: 200 in 11.87 seconds
+2025-03-06 10:36:06,277 - INFO - Response received: 200 in 1.26 seconds
+2025-03-06 10:36:06,278 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:36:06,323 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=%2f2%2bnROVBCtRrmy62xQ7hVxq1BIkKx64e3UKpWpjU4hM4Fw356dxwudkg56mRAfybNu5P6Pc59e7L4A56hLViz7XS3CAZYxrjM1TGSbG7XTs%3d
+2025-03-06 10:36:07,833 - INFO - Response received: 200 in 1.55 seconds
+2025-03-06 10:36:07,838 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:36:08,704 - INFO - Response received: 200 in 11.37 seconds
+2025-03-06 10:36:08,764 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=Ga4HUG6Hjp0oxCPrYNOTc0l0SYucTyQabB16djFDcQC0K9xl%2fgRjNSzdfLChd9cmUR5UC3%2fqFzcwuQabsixuRszgoTlN1AFUHTZItSu7E3U%3d
+2025-03-06 10:36:14,739 - INFO - Response received: 200 in 6.90 seconds
+2025-03-06 10:36:14,806 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=LNFBiVleKTe%2fBGj5Z0pyzyxgh1r3bTfctrM0UkjWNqN3He0%2blSCclLFqOl9WHE8biuFA1gNAVTuC6%2fEVHgivq4FpZBU2wFfo%2bLqKNa5B9NI%3d
+2025-03-06 10:36:19,132 - INFO - Response received: 200 in 4.33 seconds
+2025-03-06 10:36:23,064 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:36:24,499 - INFO - Response received: 200 in 1.43 seconds
+2025-03-06 10:36:24,499 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:36:25,861 - INFO - Response received: 200 in 1.36 seconds
+2025-03-06 10:36:25,862 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:36:34,228 - INFO - Response received: 200 in 67.52 seconds
+2025-03-06 10:36:34,548 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:36:35,525 - INFO - Response received: 200 in 9.66 seconds
+2025-03-06 10:36:35,582 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=shvmBSioJYLsv5t6q%2bA8RWGrjNM7YNuY2sh5hmtTJCLXBbk369C4wIJzxOtz0z6b52XBq3qMYN5M9oB3Sn85b6dEXm7cat0X4RJbHq9%2bIo8%3d
+2025-03-06 10:37:32,051 - INFO - Response received: 200 in 56.47 seconds
+2025-03-06 10:37:32,173 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:37:38,603 - INFO - Response received: 200 in 6.43 seconds
+2025-03-06 10:37:38,678 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=xjoW4f%2b%2bAy6X7JVyvRNlZHDYyHkgH1z5a2xtYzSvbXbRL4mldOkscV6KhVVcFJ2Q9mzqQFguaBiyKX7R5ZUmbfqH8OgegBcK8oTT1MndOmU%3d
+2025-03-06 10:37:45,579 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:37:56,376 - INFO - Response received: 200 in 10.80 seconds
+2025-03-06 10:37:56,458 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=WfoOBgcEUCRTQQBxaN6J69CdFkyCFYps6IaTIqJQMaxyMBWC9LzLlnFpHx08Wi%2bzp1hnhTmzXoSBQpvTe%2floIpaaeJKPaSqS3vC%2fK2keve4%3d
+2025-03-06 10:39:03,538 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:39:15,680 - INFO - Response received: 200 in 12.14 seconds
+2025-03-06 10:39:15,759 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=HxF36Nxcl9XEe1JOL%2f3dfxPe8zE1AKvchEzT%2b5ug9BIl7HegEIBHIFAaoqFWDY%2f%2bT7hq5SKhc8NyfIVgJUifqDRRa1EWB8JrqO8jPl6p01E%3d
+2025-03-06 10:41:44,672 - INFO - Response received: 200 in 148.91 seconds
+2025-03-06 10:42:20,635 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:42:34,848 - INFO - Response received: 200 in 14.21 seconds
+2025-03-06 10:42:35,043 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=kJs200GlQG3Jxg0CSXQr9YRIQtai4fcXQjoauY3mZ5Y32f4UOwmD%2bYvpLMANdGFc2%2bA2d8qEB3S%2feYRYmE%2fy4RLJTFe2qYEI4aSRuR%2b2ekc%3d
+2025-03-06 10:45:25,466 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:45:35,473 - INFO - Response received: 200 in 10.01 seconds
+2025-03-06 10:45:35,554 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=T1aLxN3oUIpiyxEci%2bRy8DXiJQZtrSZESqPVrtNWg5SZvUKdFSx5o2Gu0HAYClgAZQaUEEro%2fKMJXxyA9Jc%2bgfELzdvmrPKszPrzdSrOdbg%3d
+2025-03-06 10:45:49,864 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:45:53,077 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:45:54,924 - INFO - Response received: 200 in 5.06 seconds
+2025-03-06 10:45:55,014 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=a6OX%2b6JfH8FjO6KpE0qJinVtxUQ7nsL22mE878uTpyCSiUKhJ9GRxzbrxPi6IygpkAAZrbUEKF%2fHEQMgHkrMAiZw6Z2L94ULFeBi7FWSKF8%3d
+2025-03-06 10:46:02,021 - INFO - Response received: 200 in 7.01 seconds
+2025-03-06 10:46:03,573 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:46:05,617 - INFO - Response received: 200 in 12.54 seconds
+2025-03-06 10:46:05,682 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=S30BG%2fHvRtzzDpLVoxraM0rKl1Hv0xqmNUl3nrauqguVHCVu9pEoGGLnVgRh3v3HgjwgFBFO3LYEbiynJTJ7Tn4B7t02OSH6XGBEgrf4Tcg%3d
+2025-03-06 10:46:10,480 - INFO - Response received: 200 in 34.93 seconds
+2025-03-06 10:46:10,916 - INFO - Response received: 200 in 7.34 seconds
+2025-03-06 10:46:10,989 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=m4mERhbP0GTuxEk9X3WTdUmIqdyY8b6ul2tMTXLCBU6wIY9AUTGMz2mKCMAyuhPZlgP6CeAxYH6iFZbMM9nxaZh6Lnl3haofk8xj4ALTfSU%3d
+2025-03-06 10:46:14,904 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:46:31,501 - INFO - Response received: 200 in 20.51 seconds
+2025-03-06 10:46:32,174 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:46:35,714 - ERROR - Timeout error. Retrying...
+2025-03-06 10:46:35,714 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=S30BG%2fHvRtzzDpLVoxraM0rKl1Hv0xqmNUl3nrauqguVHCVu9pEoGGLnVgRh3v3HgjwgFBFO3LYEbiynJTJ7Tn4B7t02OSH6XGBEgrf4Tcg%3d
+2025-03-06 10:58:19,006 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:58:19,669 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:58:26,032 - INFO - Response received: 200 in 6.36 seconds
+2025-03-06 10:58:26,107 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=PwrjiqnIQdXAAG144sze%2bss%2fC3WNO2W6eMwqV3%2fOrrouXQxnVdAslJd0Y3IKZZXHWdfDXs1DEhh3xpLCDY4hSviwgmC56QZ%2fkEyZJOlTmYc%3d
+2025-03-06 10:58:30,470 - INFO - Response received: 200 in 11.46 seconds
+2025-03-06 10:58:30,541 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=UQGURtaA6PiglZFuvcV49dgr6oLTZ4iO1SO1xNmZdQTWWyRR4QtMPqT9c94SY5cdhjaOFPHo0mloxId38zI3HdxqYM237FxwoXi5ajuduDo%3d
+2025-03-06 10:58:30,589 - INFO - Response received: 200 in 4.48 seconds
+2025-03-06 10:58:35,641 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 10:58:36,891 - INFO - Response received: 200 in 1.25 seconds
+2025-03-06 10:59:13,288 - INFO - Response received: 200 in 42.75 seconds
+2025-03-06 10:59:16,472 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 10:59:31,983 - INFO - Response received: 200 in 15.51 seconds
+2025-03-06 10:59:32,044 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=YuDdkCiAl%2bclloEqxyQHN%2fpX8DUsHWFj13m%2br%2fmtOG23yP20sg%2fx%2fMN4U%2b4Yzk9tQ7g1bxbQkK%2fydWNvz1YgAsNDqBrPCfqNNplT3Sp%2bozA%3d
+2025-03-06 11:03:57,332 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:03:57,359 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:04:05,865 - INFO - Response received: 200 in 8.50 seconds
+2025-03-06 11:04:05,933 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=1PuCxb0Tt6n%2bvf1MH5veb8SlHkSflGDBKa4VaYgS%2f1MWllttPXGP6fyD4k0UBKsDNaWx68rCvY0cJQ9gC01qFwaghGbuixCduMslvTUBSiY%3d
+2025-03-06 11:04:07,798 - INFO - Response received: 200 in 10.46 seconds
+2025-03-06 11:04:07,873 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=jUyFIOl7Uon4b6o6LH4jyYZ4BccBgsfJ2i3ZKR74zqoGHKOKFALvptLaeyrrEJCWVj6dpovuJVf%2ftTbZTWrVmgWwbQ4TcUTg3EqjXClC7AM%3d
+2025-03-06 11:04:35,645 - INFO - Response received: 200 in 27.77 seconds
+2025-03-06 11:04:37,452 - INFO - Response received: 200 in 31.52 seconds
+2025-03-06 11:04:41,021 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 11:04:42,504 - INFO - Response received: 200 in 1.48 seconds
+2025-03-06 11:04:42,505 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:04:44,196 - INFO - Response received: 200 in 1.69 seconds
+2025-03-06 11:04:44,202 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:04:44,412 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 11:04:45,679 - INFO - Response received: 200 in 1.27 seconds
+2025-03-06 11:04:45,679 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:04:47,112 - INFO - Response received: 200 in 1.43 seconds
+2025-03-06 11:04:47,118 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:04:52,434 - INFO - Response received: 200 in 5.32 seconds
+2025-03-06 11:04:52,490 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=MaK74%2fGKfokO7PIyrDXwAldAZyI9wydXZygVXayscq0AeVwuEqUlRVfcBJV1PKlxnK3rQohQUxlrelKR%2fvlD3b%2bZ1yO9I1QvC1S%2bt1SXpk4%3d
+2025-03-06 11:07:36,531 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:07:46,003 - INFO - Response received: 200 in 9.47 seconds
+2025-03-06 11:07:46,083 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=9nwcm%2bUtATwrQ8Gr%2fiv5Eb%2fK01peE1Ot88GFqLCS4hX3YGTv%2bz7dSHHVUwBDzUNDUM5jS33wJCESMerZ3EvefgGHp5A5ZR%2bxfAKEtq0vzGU%3d
+2025-03-06 11:08:14,984 - INFO - Response received: 200 in 28.90 seconds
+2025-03-06 11:08:17,288 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 11:08:18,669 - INFO - Response received: 200 in 1.38 seconds
+2025-03-06 11:08:18,670 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 11:08:20,108 - INFO - Response received: 200 in 1.44 seconds
+2025-03-06 11:08:20,112 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:03:43,157 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:03:43,562 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:03:43,713 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:03:48,931 - INFO - Response received: 200 in 5.21 seconds
+2025-03-06 12:03:48,982 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=zQ41DtutdIBPUCmFGz35GTH%2bZ5aCCiCFJytq7AE%2b%2bY13k5%2fxCw5B3osr5PbnBwTWb05R7%2be%2f%2bEQ%2bboiNj4GY5Sa3e9bRzValqKWjjLtGRgM%3d
+2025-03-06 12:03:52,069 - INFO - Response received: 200 in 8.91 seconds
+2025-03-06 12:03:52,200 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=20%2biR44A2TkFMJM49bc7TPtyLOpcDKcxAMRM1Dwjf1R7Xa5PlbiYImoffRq9JlqqOIUh%2fnLxVtArU%2fGmSPs7j3bj3dlp5xxLdoeeNsbSHy8%3d
+2025-03-06 12:03:53,944 - INFO - Response received: 200 in 10.38 seconds
+2025-03-06 12:03:54,007 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=tSI1mfAj1xCAAEIvvLLRgVabJlB%2fUTGXHV%2fKNx2zA%2bzD8Cu8zu1sXvgKdkEMYj9pN3Bws0El6EwNtmgcdX%2fGxGofF4IewCU5ylYXUPLmvsQ%3d
+2025-03-06 12:04:04,981 - INFO - Response received: 200 in 16.00 seconds
+2025-03-06 12:04:06,989 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:04:09,271 - INFO - Response received: 200 in 2.28 seconds
+2025-03-06 12:04:09,272 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:04:11,332 - INFO - Response received: 200 in 2.06 seconds
+2025-03-06 12:04:11,333 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:04:15,006 - INFO - Response received: 200 in 3.67 seconds
+2025-03-06 12:04:15,089 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:04:20,126 - INFO - Response received: 200 in 27.93 seconds
+2025-03-06 12:04:22,291 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:04:23,612 - INFO - Response received: 200 in 1.32 seconds
+2025-03-06 12:04:23,613 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:04:25,269 - INFO - Response received: 200 in 1.66 seconds
+2025-03-06 12:04:25,270 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:04:28,523 - INFO - Response received: 200 in 3.25 seconds
+2025-03-06 12:04:28,625 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:04:59,298 - INFO - Response received: 200 in 65.29 seconds
+2025-03-06 12:05:00,821 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:05:02,110 - INFO - Response received: 200 in 1.29 seconds
+2025-03-06 12:05:02,110 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:05:03,953 - INFO - Response received: 200 in 1.84 seconds
+2025-03-06 12:05:03,954 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:05:07,844 - INFO - Response received: 200 in 3.89 seconds
+2025-03-06 12:05:07,918 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:05:21,900 - INFO - Response received: 200 in 53.27 seconds
+2025-03-06 12:05:23,513 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:05:24,878 - INFO - Response received: 200 in 1.36 seconds
+2025-03-06 12:05:24,923 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:05:30,375 - INFO - Response received: 200 in 75.29 seconds
+2025-03-06 12:05:32,388 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:05:33,586 - INFO - Response received: 200 in 1.20 seconds
+2025-03-06 12:05:33,636 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:05:50,781 - INFO - Response received: 200 in 25.86 seconds
+2025-03-06 12:05:52,241 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:05:53,722 - INFO - Response received: 200 in 1.48 seconds
+2025-03-06 12:05:53,766 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:08,984 - INFO - Response received: 200 in 61.07 seconds
+2025-03-06 12:06:11,179 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:06:12,636 - INFO - Response received: 200 in 1.46 seconds
+2025-03-06 12:06:12,682 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:14,263 - INFO - Response received: 200 in 1.58 seconds
+2025-03-06 12:06:14,765 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:16,249 - INFO - Response received: 200 in 1.48 seconds
+2025-03-06 12:06:16,751 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:18,327 - INFO - Response received: 200 in 1.58 seconds
+2025-03-06 12:06:18,830 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:20,852 - INFO - Response received: 200 in 2.02 seconds
+2025-03-06 12:06:21,355 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:23,077 - INFO - Response received: 200 in 1.72 seconds
+2025-03-06 12:06:23,580 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:25,054 - INFO - Response received: 200 in 1.47 seconds
+2025-03-06 12:06:25,557 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:26,078 - INFO - Response received: 200 in 32.31 seconds
+2025-03-06 12:06:27,513 - INFO - Response received: 200 in 1.96 seconds
+2025-03-06 12:06:28,017 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:28,133 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:06:29,497 - INFO - Response received: 200 in 1.36 seconds
+2025-03-06 12:06:29,557 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:29,587 - INFO - Response received: 200 in 1.57 seconds
+2025-03-06 12:06:30,090 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:30,995 - INFO - Response received: 200 in 1.44 seconds
+2025-03-06 12:06:31,497 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:32,513 - INFO - Response received: 200 in 2.42 seconds
+2025-03-06 12:06:33,015 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:06:33,027 - INFO - Response received: 200 in 1.53 seconds
+2025-03-06 12:06:33,529 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:11:06,479 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:11:06,570 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:11:21,387 - INFO - Response received: 200 in 14.82 seconds
+2025-03-06 12:11:21,455 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=NmxrN5J%2fuJteBmsXatlcB8S22Rxu0iXcFvm5nA5NP2vjf8xb6byTKZsyx0p%2b7diylDtOE%2fb9f0JqErMlI03dQPXz2CEOk9NqbJgVeidPFVk%3d
+2025-03-06 12:11:28,350 - INFO - Response received: 200 in 21.87 seconds
+2025-03-06 12:11:28,422 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=pA29pnPe4kCKqAK62u8RpFjjYqjbgmWWhGYHFeaOx9esOKjJaQAH3AjHu6661%2bBiA6TeT0VtS336QbXWh46qzyHw8mJJAv5pnK5pivk6Jto%3d
+2025-03-06 12:12:02,872 - INFO - Response received: 200 in 41.42 seconds
+2025-03-06 12:12:05,638 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:12:06,892 - INFO - Response received: 200 in 1.25 seconds
+2025-03-06 12:12:06,892 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:12:08,410 - INFO - Response received: 200 in 1.52 seconds
+2025-03-06 12:12:08,412 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:12:11,618 - INFO - Response received: 200 in 3.21 seconds
+2025-03-06 12:12:11,710 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:12:35,486 - INFO - Response received: 200 in 67.06 seconds
+2025-03-06 12:12:37,838 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:12:40,087 - INFO - Response received: 200 in 2.25 seconds
+2025-03-06 12:12:40,088 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:12:41,966 - INFO - Response received: 200 in 1.88 seconds
+2025-03-06 12:12:41,966 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:12:47,449 - INFO - Response received: 200 in 5.48 seconds
+2025-03-06 12:12:47,545 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:13:00,741 - INFO - Response received: 200 in 49.03 seconds
+2025-03-06 12:13:02,866 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:13:04,797 - INFO - Response received: 200 in 1.93 seconds
+2025-03-06 12:13:04,842 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:13:39,532 - INFO - Response received: 200 in 51.99 seconds
+2025-03-06 12:13:42,015 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:13:44,038 - INFO - Response received: 200 in 2.02 seconds
+2025-03-06 12:13:44,095 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:13:45,807 - INFO - Response received: 200 in 40.97 seconds
+2025-03-06 12:13:47,987 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:13:49,668 - INFO - Response received: 200 in 1.68 seconds
+2025-03-06 12:13:49,718 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:14:36,537 - INFO - Response received: 200 in 46.82 seconds
+2025-03-06 12:14:38,714 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:14:40,368 - INFO - Response received: 200 in 1.65 seconds
+2025-03-06 12:14:40,368 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:14:43,092 - INFO - Response received: 200 in 2.72 seconds
+2025-03-06 12:14:43,093 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=0MHeicD%2fh4obYbV72ioVZXI0kV5qenI4B%2fSspbHaX4iqHma97o1kiee1WBDux%2fHm1mgQvED5Bi9e8a6sRDYdp1cw6r5v6zMLsLSovdhzCyYZpJxT0JVMjNQaAdRxBBC36xgMNkjHNV5%2bXbKyaFqMQhXzlpsJ5LeuZvPxcX%2bRuVM%3d
+2025-03-06 12:14:54,233 - INFO - Response received: 200 in 70.14 seconds
+2025-03-06 12:14:54,364 - INFO - Response received: 200 in 11.27 seconds
+2025-03-06 12:14:54,930 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=0MHeicD%2fh4obYbV72ioVZXI0kV5qenI4B%2fSspbHaX4iqHma97o1kiee1WBDux%2fHm1mgQvED5Bi9e8a6sRDYdp1cw6r5v6zMLsLSovdhzCyYZpJxT0JVMjNQaAdRxBBC36xgMNkjHNV5%2bXbKyaFqMQhXzlpsJ5LeuZvPxcX%2bRuVM%3d
+2025-03-06 12:14:56,731 - INFO - Response received: 200 in 1.80 seconds
+2025-03-06 12:14:56,731 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:14:56,995 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:14:58,789 - INFO - Response received: 200 in 1.79 seconds
+2025-03-06 12:14:58,864 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:15:02,234 - INFO - Response received: 200 in 5.50 seconds
+2025-03-06 12:15:02,320 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:15:04,468 - INFO - Response received: 500 in 2.15 seconds
+2025-03-06 12:15:04,481 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:15:08,962 - INFO - Response received: 200 in 4.48 seconds
+2025-03-06 12:15:09,056 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:15:54,517 - INFO - Response received: 200 in 45.46 seconds
+2025-03-06 12:15:56,834 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:15:59,619 - INFO - Response received: 200 in 2.78 seconds
+2025-03-06 12:15:59,619 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:16:01,313 - INFO - Response received: 200 in 1.69 seconds
+2025-03-06 12:16:01,313 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTvyBBsREgZb1xMlqvFIk6%2f6Rbm5BODshKdcrNvHzac9c%3d
+2025-03-06 12:16:10,442 - INFO - Response received: 200 in 71.58 seconds
+2025-03-06 12:16:12,860 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:16:14,465 - INFO - Response received: 200 in 13.15 seconds
+2025-03-06 12:16:14,699 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTvyBBsREgZb1xMlqvFIk6%2f6Rbm5BODshKdcrNvHzac9c%3d
+2025-03-06 12:16:14,706 - INFO - Response received: 200 in 1.85 seconds
+2025-03-06 12:16:14,753 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:16:16,613 - INFO - Response received: 200 in 1.91 seconds
+2025-03-06 12:16:16,613 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:16:26,793 - INFO - Response received: 200 in 10.18 seconds
+2025-03-06 12:16:26,848 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:16:28,342 - INFO - Response received: 500 in 1.49 seconds
+2025-03-06 12:16:28,345 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:16:34,100 - INFO - Response received: 200 in 5.75 seconds
+2025-03-06 12:16:34,168 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:17:15,289 - INFO - Response received: 200 in 41.12 seconds
+2025-03-06 12:17:16,956 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:17:18,465 - INFO - Response received: 200 in 1.51 seconds
+2025-03-06 12:17:18,465 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:17:19,386 - INFO - Response received: 200 in 64.63 seconds
+2025-03-06 12:17:20,104 - INFO - Response received: 200 in 1.61 seconds
+2025-03-06 12:17:20,105 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=zkwNjPHeAB9M33K1cNjV%2fbIHLaOii3JUB3Hrlxl6j64qbMYa0%2fDWS55pkM%2b4fHULx7wUn4VErg4s6qUz6kiqLGPPJxpwOF2xJn163nOkSozEa41XiUlq8oWSeHx3iGo%2bCkC%2fMaTqTQInhF%2bbtcVzqiaBusMRGKsro9%2b9QufGJgw%3d
+2025-03-06 12:17:21,292 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:17:23,182 - INFO - Response received: 200 in 1.89 seconds
+2025-03-06 12:17:23,232 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:17:35,767 - INFO - Response received: 200 in 15.66 seconds
+2025-03-06 12:17:36,010 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=zkwNjPHeAB9M33K1cNjV%2fbIHLaOii3JUB3Hrlxl6j64qbMYa0%2fDWS55pkM%2b4fHULx7wUn4VErg4s6qUz6kiqLGPPJxpwOF2xJn163nOkSozEa41XiUlq8oWSeHx3iGo%2bCkC%2fMaTqTQInhF%2bbtcVzqiaBusMRGKsro9%2b9QufGJgw%3d
+2025-03-06 12:17:38,538 - INFO - Response received: 200 in 2.53 seconds
+2025-03-06 12:17:38,538 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:17:42,217 - INFO - Response received: 200 in 3.68 seconds
+2025-03-06 12:17:42,278 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:17:44,066 - INFO - Response received: 500 in 1.79 seconds
+2025-03-06 12:17:44,068 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:17:48,572 - INFO - Response received: 200 in 4.50 seconds
+2025-03-06 12:17:48,639 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:18:29,501 - INFO - Response received: 200 in 66.27 seconds
+2025-03-06 12:18:31,371 - INFO - Response received: 200 in 42.73 seconds
+2025-03-06 12:18:32,055 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:18:33,440 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:18:33,827 - INFO - Response received: 200 in 1.77 seconds
+2025-03-06 12:18:33,879 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:18:36,122 - INFO - Response received: 200 in 2.68 seconds
+2025-03-06 12:18:36,122 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:18:38,348 - INFO - Response received: 200 in 2.23 seconds
+2025-03-06 12:18:38,348 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTHmSppNxfm8mEmgy5CKTP64LR7A4qd5VAB%2f1i%2fseIyMc%3d
+2025-03-06 12:18:51,649 - INFO - Response received: 200 in 13.30 seconds
+2025-03-06 12:18:51,887 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTHmSppNxfm8mEmgy5CKTP64LR7A4qd5VAB%2f1i%2fseIyMc%3d
+2025-03-06 12:18:54,171 - INFO - Response received: 200 in 2.28 seconds
+2025-03-06 12:18:54,171 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:18:58,845 - INFO - Response received: 200 in 4.67 seconds
+2025-03-06 12:18:58,903 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:19:01,579 - INFO - Response received: 500 in 2.68 seconds
+2025-03-06 12:19:01,582 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:19:09,265 - INFO - Response received: 200 in 7.68 seconds
+2025-03-06 12:19:09,333 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:19:51,033 - INFO - Response received: 200 in 77.15 seconds
+2025-03-06 12:19:51,753 - INFO - Response received: 200 in 42.42 seconds
+2025-03-06 12:19:53,085 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:19:54,107 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:19:54,966 - INFO - Response received: 200 in 1.88 seconds
+2025-03-06 12:19:55,020 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:19:55,853 - INFO - Response received: 200 in 1.75 seconds
+2025-03-06 12:19:55,853 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:19:57,974 - INFO - Response received: 200 in 2.12 seconds
+2025-03-06 12:19:57,974 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFhtEccePq7Y2YY4GNkH8jMIFw2M6QBcvzaViD%2bpBDZMYS0%3d
+2025-03-06 12:20:11,724 - INFO - Response received: 200 in 13.75 seconds
+2025-03-06 12:20:11,963 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFhtEccePq7Y2YY4GNkH8jMIFw2M6QBcvzaViD%2bpBDZMYS0%3d
+2025-03-06 12:20:13,772 - INFO - Response received: 200 in 1.81 seconds
+2025-03-06 12:20:13,772 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:20:18,069 - INFO - Response received: 200 in 4.30 seconds
+2025-03-06 12:20:18,125 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:20:20,016 - INFO - Response received: 500 in 1.89 seconds
+2025-03-06 12:20:20,018 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:20:24,806 - INFO - Response received: 200 in 4.79 seconds
+2025-03-06 12:20:24,874 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:21:03,437 - INFO - Response received: 200 in 68.42 seconds
+2025-03-06 12:21:05,178 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:21:05,792 - INFO - Response received: 200 in 40.92 seconds
+2025-03-06 12:21:07,299 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:21:07,325 - INFO - Response received: 200 in 2.15 seconds
+2025-03-06 12:21:07,397 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:21:09,474 - INFO - Response received: 200 in 2.17 seconds
+2025-03-06 12:21:09,522 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:21:55,386 - INFO - Response received: 200 in 45.86 seconds
+2025-03-06 12:21:57,545 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:21:59,141 - INFO - Response received: 200 in 1.60 seconds
+2025-03-06 12:21:59,141 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:22:00,677 - INFO - Response received: 200 in 1.53 seconds
+2025-03-06 12:22:00,677 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTmQgjWN%2fBAm%2bgEdO93mhl%2bFv1ofI%2bj541CluArMQAZDo%3d
+2025-03-06 12:22:07,024 - INFO - Response received: 200 in 59.63 seconds
+2025-03-06 12:22:08,915 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:22:10,809 - INFO - Response received: 200 in 1.89 seconds
+2025-03-06 12:22:10,863 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:22:16,341 - INFO - Response received: 200 in 15.64 seconds
+2025-03-06 12:22:16,579 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuYpgpVL%2b5pKLz6t7mhEgcYTmQgjWN%2fBAm%2bgEdO93mhl%2bFv1ofI%2bj541CluArMQAZDo%3d
+2025-03-06 12:22:19,313 - INFO - Response received: 200 in 2.73 seconds
+2025-03-06 12:22:19,314 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatypeverification
+2025-03-06 12:22:20,235 - INFO - Response received: 401 in 0.92 seconds
+2025-03-06 12:22:20,235 - ERROR - An error occurred: Redirected to login page: https://ita-pak.blsinternational.com/Global/bls/visatypeverification
+2025-03-06 12:22:20,236 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:42:31,795 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:42:47,586 - INFO - Response received: 200 in 15.79 seconds
+2025-03-06 12:42:47,666 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=7OEP3P8472PCq2X5lpbzpcSslKcL%2fPIBNuVtDAqiskirBXLcGQdRvg5QRcmqKGSJ7ay%2bjRVTB4VPyZHhXjCVD0FJr7GmtvGpmjiMDY6N%2ff0%3d
+2025-03-06 12:43:24,142 - INFO - Response received: 200 in 36.48 seconds
+2025-03-06 12:43:25,931 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:43:27,519 - INFO - Response received: 200 in 1.59 seconds
+2025-03-06 12:43:27,587 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=7OEP3P8472PCq2X5lpbzpcSslKcL%2fPIBNuVtDAqiskirBXLcGQdRvg5QRcmqKGSJ7ay%2bjRVTB4VPyZHhXjCVD0FJr7GmtvGpmjiMDY6N%2ff0%3d
+2025-03-06 12:44:05,159 - INFO - Response received: 200 in 37.57 seconds
+2025-03-06 12:44:06,895 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 12:44:08,140 - INFO - Response received: 200 in 1.24 seconds
+2025-03-06 12:44:08,141 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 12:44:09,814 - INFO - Response received: 200 in 1.67 seconds
+2025-03-06 12:44:09,815 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:44:12,760 - INFO - Response received: 200 in 2.94 seconds
+2025-03-06 12:44:12,846 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:44:50,492 - INFO - Response received: 200 in 37.65 seconds
+2025-03-06 12:44:52,640 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:44:54,054 - INFO - Response received: 200 in 1.41 seconds
+2025-03-06 12:44:54,104 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:45:28,493 - INFO - Response received: 200 in 34.39 seconds
+2025-03-06 12:45:30,583 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:45:32,147 - INFO - Response received: 200 in 1.56 seconds
+2025-03-06 12:45:32,147 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:45:33,680 - INFO - Response received: 200 in 1.53 seconds
+2025-03-06 12:45:33,680 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFhtt08bUhnw25pLodvrBO1P05fGFNABihPe%2faKfdzCwyMY%3d
+2025-03-06 12:45:45,657 - INFO - Response received: 200 in 11.98 seconds
+2025-03-06 12:45:46,003 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFhtt08bUhnw25pLodvrBO1P05fGFNABihPe%2faKfdzCwyMY%3d
+2025-03-06 12:45:47,501 - INFO - Response received: 200 in 1.50 seconds
+2025-03-06 12:46:28,278 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:46:31,498 - INFO - Response received: 200 in 3.22 seconds
+2025-03-06 12:46:36,804 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 12:47:14,441 - INFO - Response received: 200 in 37.64 seconds
+2025-03-06 12:47:17,389 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 12:47:18,762 - INFO - Response received: 200 in 1.37 seconds
+2025-03-06 12:47:25,693 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:47:26,913 - INFO - Response received: 200 in 1.22 seconds
+2025-03-06 12:47:55,116 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=v1U1pBrkXR5s2uDNNIGSx1u%2bHy4PexlJNHk686hQb%2bLIA4D6W0CT62qWIOdd6zPAjd4KbQ9PBxMtI05uidhD0%2fIyXPWP24mc8E128agU4Y9xMbUW8RjbpRm%2bL2G58FLD%2f6L4LmiWPNc6iaCFyDp%2b1syPMc%2bNQq4NIZffDPLZ3QM%3d
+2025-03-06 12:48:06,933 - INFO - Response received: 200 in 11.82 seconds
+2025-03-06 12:48:19,822 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:48:22,795 - INFO - Response received: 200 in 2.97 seconds
+2025-03-06 12:48:32,425 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-06 12:48:33,798 - INFO - Response received: 500 in 1.37 seconds
+2025-03-06 12:48:33,806 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 12:48:36,950 - INFO - Response received: 200 in 3.14 seconds
+2025-03-06 12:48:37,047 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 22:27:46,480 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 22:27:59,338 - INFO - Response received: 200 in 12.85 seconds
+2025-03-06 22:27:59,420 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=pdtuiaBlIqCjZnFxbO5w7hi1fXjV%2flZw9bbiDKIZhh6glbUJWLd8Pi2NuFoQsoMkedijvD2JWLedChUj%2bQHd01Nsa%2bee5t8MZjuFR9YzBcw%3d
+2025-03-06 22:29:10,933 - INFO - Response received: 200 in 71.51 seconds
+2025-03-06 22:29:13,100 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-06 22:29:15,544 - INFO - Response received: 200 in 2.44 seconds
+2025-03-06 22:29:15,545 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-06 22:29:17,538 - INFO - Response received: 200 in 1.99 seconds
+2025-03-06 22:29:17,540 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 22:29:22,475 - INFO - Response received: 200 in 4.94 seconds
+2025-03-06 22:29:22,564 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-06 22:30:21,336 - INFO - Response received: 200 in 58.77 seconds
+2025-03-06 22:30:23,357 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-06 22:30:28,715 - INFO - Response received: 200 in 5.36 seconds
+2025-03-06 22:30:28,716 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-06 22:30:30,371 - INFO - Response received: 200 in 1.66 seconds
+2025-03-06 22:30:30,372 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFht5xqLCOZFHInl7Mb2%2fDTU5Y6BQdgJk02mTklEorRKXSg%3d
+2025-03-06 22:30:46,733 - INFO - Response received: 200 in 16.36 seconds
+2025-03-06 22:30:46,989 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=YgyFxWD1hKd%2blZNiz8ZB0F3za9dDZvnh9ahaT%2bXSgr0AzqjtzpDLbby7OfS0JT%2f9cxcmy7zgew2F1Nx8xUPNzRi4%2bD7Pxwbbhhg%2b0b81xajegIeJe6BBP%2fePEAGgfFht5xqLCOZFHInl7Mb2%2fDTU5Y6BQdgJk02mTklEorRKXSg%3d
+2025-03-06 22:30:48,730 - INFO - Response received: 200 in 1.74 seconds
+2025-03-08 06:40:05,861 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:40:15,684 - INFO - Response received: 200 in 9.82 seconds
+2025-03-08 06:40:15,766 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=i4qpu8LCU7Va8dLsy1%2bz3nf7GVrZOZL%2fu9cSzltvzSmEf7rUTga3R%2fWz9WJqbIGBYM0fB%2bbJgAjLqFh%2foD%2bQj8x8B2SxP8b9i63iOMIWmLs%3d
+2025-03-08 06:41:23,034 - INFO - Response received: 200 in 67.27 seconds
+2025-03-08 06:41:25,495 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 06:41:27,808 - INFO - Response received: 200 in 2.31 seconds
+2025-03-08 06:41:27,867 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=i4qpu8LCU7Va8dLsy1%2bz3nf7GVrZOZL%2fu9cSzltvzSmEf7rUTga3R%2fWz9WJqbIGBYM0fB%2bbJgAjLqFh%2foD%2bQj8x8B2SxP8b9i63iOMIWmLs%3d
+2025-03-08 06:43:31,797 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:43:44,747 - INFO - Response received: 200 in 12.95 seconds
+2025-03-08 06:43:44,841 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=7DY69eKzxqd05H3A8%2bgagn7iai4abYOcWkdTy4HX5PsY9CdX06HdcTsAnUa7Z%2bBJrxDcdq13fC7G014J5sTNx1%2b1rWkLqQzCCnCGmY%2bW4tw%3d
+2025-03-08 06:45:00,516 - INFO - Response received: 200 in 75.67 seconds
+2025-03-08 06:45:03,181 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 06:45:04,845 - INFO - Response received: 200 in 1.66 seconds
+2025-03-08 06:45:04,846 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:45:06,971 - INFO - Response received: 200 in 2.12 seconds
+2025-03-08 06:45:06,972 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-08 06:45:12,070 - INFO - Response received: 200 in 5.10 seconds
+2025-03-08 06:45:12,159 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-08 06:49:08,873 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:49:16,493 - ERROR - SSL error. Retrying...
+2025-03-08 06:49:17,495 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:49:26,627 - INFO - Response received: 403 in 9.13 seconds
+2025-03-08 06:49:26,627 - ERROR - Forbidden (403) encountered
+2025-03-08 06:49:52,341 - INFO - 403 not fixed in 25.71 seconds. redirecting...
+2025-03-08 06:49:52,342 - ERROR - An error occurred: Logining in afresh
+2025-03-08 06:49:52,343 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:49:58,511 - INFO - Response received: 200 in 6.17 seconds
+2025-03-08 06:49:58,597 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=PnccA%2fF9MnZlgkxBIE37s1Gt4WNJJWkOIfzBVRTvNiOv1yxLbKiWMDMv1XdYBXZmyz4UXFdx2Xwb9KjoZCt2GD%2feYuZnbzarQX%2bgP%2bsi7JM%3d
+2025-03-08 06:51:08,444 - INFO - Response received: 200 in 69.85 seconds
+2025-03-08 06:51:10,830 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 06:51:12,395 - INFO - Response received: 200 in 1.57 seconds
+2025-03-08 06:56:20,734 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 06:56:26,889 - INFO - Response received: 200 in 6.15 seconds
+2025-03-08 06:56:26,963 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=vOjGLoSn8LolVsSN%2fd0n5Qts3igfbaamy5sldUwXyyI%2fSPC8iWKmwjqR5BZP7Ci%2fJWEElwGzuhsFD6WoUmhq%2b7HMv6iXhrYltQISiE%2bAEdg%3d
+2025-03-08 06:56:37,731 - INFO - Response received: 200 in 10.77 seconds
+2025-03-08 06:56:40,068 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 06:56:42,471 - INFO - Response received: 200 in 2.40 seconds
+2025-03-08 07:03:03,187 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 07:03:16,286 - INFO - Response received: 200 in 13.10 seconds
+2025-03-08 07:03:16,363 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=9%2fvSAQ3KxCEUeZDT3qMvifaqOZYeVKs9kpgPcF9NAalpRC50ef%2fVlvLWeoribG11s2AX4TPYPlJDYChPiQqa8tvYhGuDLwWKo8%2bH04TkKWA%3d
+2025-03-08 07:03:40,537 - INFO - Response received: 200 in 24.17 seconds
+2025-03-08 07:03:42,421 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 07:03:44,567 - INFO - Response received: 200 in 2.15 seconds
+2025-03-08 07:03:44,568 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 07:03:46,472 - INFO - Response received: 200 in 1.90 seconds
+2025-03-08 07:03:46,473 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-08 07:03:48,595 - INFO - Response received: 200 in 2.12 seconds
+2025-03-08 07:03:48,711 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-08 07:04:13,075 - INFO - Response received: 200 in 24.36 seconds
+2025-03-08 07:04:15,211 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-08 07:04:17,375 - INFO - Response received: 200 in 2.16 seconds
+2025-03-08 07:05:39,735 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 07:05:52,104 - INFO - Response received: 200 in 12.37 seconds
+2025-03-08 07:05:52,181 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=4tNM%2bqqTF78%2b6zLzs3uArDSHmQNNvx0w0Dy2XjpUyh2mfjuaiKmVeW1CT2lczCewcYKD00wy5JnNDujNQ40AEeeHnE%2bkEvN3XwW%2fErvBk20%3d
+2025-03-08 07:06:30,607 - INFO - Response received: 200 in 38.43 seconds
+2025-03-08 07:06:32,315 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-08 07:06:34,149 - INFO - Response received: 200 in 1.83 seconds
+2025-03-08 07:06:34,150 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-08 07:06:36,100 - INFO - Response received: 200 in 1.95 seconds
+2025-03-08 07:06:36,102 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-08 07:06:39,264 - INFO - Response received: 200 in 3.16 seconds
+2025-03-08 07:06:39,354 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-08 07:07:15,518 - INFO - Response received: 200 in 36.16 seconds
+2025-03-08 07:07:17,234 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-08 07:07:21,121 - INFO - Response received: 200 in 3.89 seconds
+2025-03-08 07:07:21,122 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-08 07:07:24,098 - INFO - Response received: 200 in 2.98 seconds
+2025-03-08 07:07:24,098 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=v1U1pBrkXR5s2uDNNIGSx1u%2bHy4PexlJNHk686hQb%2bLIA4D6W0CT62qWIOdd6zPAjd4KbQ9PBxMtI05uidhD0%2fIyXPWP24mc8E128agU4Y%2fsD0GOctq8nG33fFWEp6wMDHxUo7JP8wz6%2fOTgiAk9Z1v%2fECZeKL5czO8iVphco2E%3d
+2025-03-08 07:07:36,194 - INFO - Response received: 200 in 12.10 seconds
+2025-03-08 07:07:36,459 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=v1U1pBrkXR5s2uDNNIGSx1u%2bHy4PexlJNHk686hQb%2bLIA4D6W0CT62qWIOdd6zPAjd4KbQ9PBxMtI05uidhD0%2fIyXPWP24mc8E128agU4Y%2fsD0GOctq8nG33fFWEp6wMDHxUo7JP8wz6%2fOTgiAk9Z1v%2fECZeKL5czO8iVphco2E%3d
+2025-03-08 07:07:38,252 - INFO - Response received: 200 in 1.79 seconds
+2025-03-14 10:27:44,910 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:27:59,521 - INFO - Response received: 200 in 14.60 seconds
+2025-03-14 10:27:59,598 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=i%2f7WF7DktosbgrOtpQafcYW%2bkyx2AUXFlA%2b24bYviid8ki%2bKDR%2bX0b6r2AfJGAM02yVVPuKe%2ffV8lwfy5ZyPCrMyffCCKba2CXXG8lOODqs%3d
+2025-03-14 10:29:11,934 - INFO - Response received: 200 in 72.34 seconds
+2025-03-14 10:29:13,323 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-14 10:29:18,696 - INFO - Response received: 200 in 5.37 seconds
+2025-03-14 10:29:25,822 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=i%2f7WF7DktosbgrOtpQafcYW%2bkyx2AUXFlA%2b24bYviid8ki%2bKDR%2bX0b6r2AfJGAM02yVVPuKe%2ffV8lwfy5ZyPCrMyffCCKba2CXXG8lOODqs%3d
+2025-03-14 10:30:21,572 - INFO - Response received: 200 in 55.75 seconds
+2025-03-14 10:30:22,358 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-14 10:30:24,671 - INFO - Response received: 200 in 2.31 seconds
+2025-03-14 10:30:24,671 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:30:27,271 - INFO - Response received: 200 in 2.60 seconds
+2025-03-14 10:30:27,272 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:30:32,605 - INFO - Response received: 200 in 5.33 seconds
+2025-03-14 10:30:32,694 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:32:04,860 - INFO - Response received: 200 in 92.17 seconds
+2025-03-14 10:32:05,742 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:32:09,468 - INFO - Response received: 200 in 3.73 seconds
+2025-03-14 10:32:09,468 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:32:14,076 - INFO - Response received: 200 in 4.61 seconds
+2025-03-14 10:32:14,077 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=b%2bY30QTNTqV%2b0QrvAeKbXFx3Ls67IGQ%2b6v6KFeck0gEHECvdl6AaWrnrWtvGL2aQfTekhFiY2JrdBZZKVEFnSgTy1tez9GUu0rlql0Rqd0YX9rE3VU1%2bLKm8po6j2xrVkGGXKtylocRZ1uxy1rzSeahESOOTXrHvx%2fyrd95q2WU%3d
+2025-03-14 10:32:40,191 - INFO - Response received: 200 in 26.11 seconds
+2025-03-14 10:32:40,350 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=b%2bY30QTNTqV%2b0QrvAeKbXFx3Ls67IGQ%2b6v6KFeck0gEHECvdl6AaWrnrWtvGL2aQfTekhFiY2JrdBZZKVEFnSgTy1tez9GUu0rlql0Rqd0YX9rE3VU1%2bLKm8po6j2xrVkGGXKtylocRZ1uxy1rzSeahESOOTXrHvx%2fyrd95q2WU%3d
+2025-03-14 10:32:42,752 - INFO - Response received: 200 in 2.40 seconds
+2025-03-14 10:32:51,610 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:32:57,224 - INFO - Response received: 200 in 5.61 seconds
+2025-03-14 10:32:57,301 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:34:15,126 - INFO - Response received: 200 in 77.82 seconds
+2025-03-14 10:34:16,139 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:34:20,144 - INFO - Response received: 200 in 4.00 seconds
+2025-03-14 10:34:20,145 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:34:23,729 - INFO - Response received: 200 in 3.58 seconds
+2025-03-14 10:34:23,730 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=b%2bY30QTNTqV%2b0QrvAeKbXFx3Ls67IGQ%2b6v6KFeck0gEHECvdl6AaWrnrWtvGL2aQfTekhFiY2JrdBZZKVEFnSgTy1tez9GUu0rlql0Rqd0YX9rE3VU1%2bLKm8po6j2xrVvTJsRQscJMRFGaAEINwWohN69mgneZeGSTJyXVEVBd0%3d
+2025-03-14 10:34:46,226 - INFO - Response received: 200 in 22.50 seconds
+2025-03-14 10:34:46,389 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:34:50,407 - INFO - Response received: 200 in 4.02 seconds
+2025-03-14 10:34:50,478 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:34:53,007 - INFO - Response received: 200 in 2.53 seconds
+2025-03-14 10:34:53,208 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:34:55,791 - INFO - Response received: 200 in 2.58 seconds
+2025-03-14 10:34:55,993 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:35:00,094 - INFO - Response received: 200 in 4.10 seconds
+2025-03-14 10:35:00,295 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:35:02,478 - INFO - Response received: 200 in 2.18 seconds
+2025-03-14 10:35:02,679 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:35:05,828 - INFO - Response received: 200 in 3.15 seconds
+2025-03-14 10:35:06,029 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:35:08,187 - INFO - Response received: 200 in 2.16 seconds
+2025-03-14 10:35:08,388 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:37:49,014 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:37:55,142 - INFO - Response received: 200 in 6.13 seconds
+2025-03-14 10:37:55,215 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=VDrgIRjy9jU35tlb3Ur%2bsMF9M7E%2be63ZHTaZVJvgpkd%2fFNwf1H46N54z5u5BkRKg%2fCu4LGbsWrahNiTEJ4h6hUU9ucx6W17l63YSqF6Kwrk%3d
+2025-03-14 10:37:58,654 - INFO - Response received: 200 in 3.44 seconds
+2025-03-14 10:37:59,629 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-14 10:38:01,223 - INFO - Response received: 200 in 1.59 seconds
+2025-03-14 10:39:23,488 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=VDrgIRjy9jU35tlb3Ur%2bsMF9M7E%2be63ZHTaZVJvgpkd%2fFNwf1H46N54z5u5BkRKg%2fCu4LGbsWrahNiTEJ4h6hUU9ucx6W17l63YSqF6Kwrk%3d
+2025-03-14 10:39:27,252 - INFO - Response received: 200 in 3.76 seconds
+2025-03-14 10:39:28,393 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-14 10:39:29,975 - INFO - Response received: 200 in 1.58 seconds
+2025-03-14 10:39:29,975 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:39:32,228 - INFO - Response received: 200 in 2.25 seconds
+2025-03-14 10:39:32,229 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:39:33,977 - INFO - Response received: 200 in 1.75 seconds
+2025-03-14 10:39:34,041 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:39:37,658 - INFO - Response received: 200 in 3.62 seconds
+2025-03-14 10:39:38,595 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:39:40,642 - INFO - Response received: 200 in 2.05 seconds
+2025-03-14 10:39:40,643 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:39:42,467 - INFO - Response received: 200 in 1.82 seconds
+2025-03-14 10:39:42,467 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuZeen%2bLzz80aHumIzrai95kggdFVmkegwbu92G8OJAwshMhpZhBdqKMs%2bjIf9%2byBBk%3d
+2025-03-14 10:39:45,019 - INFO - Response received: 200 in 2.55 seconds
+2025-03-14 10:39:45,168 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/visatype?data=N45JRhk8mDsK5XAgANKQkEgAHqLK%2fpYRf%2fgShkY0o%2fAVFCHwi9g8YhMDwFF0PkqFd6Yp8QsgimQsN7V5zr7V7dh4eTZQDUsKHMhKXfnstuZeen%2bLzz80aHumIzrai95kggdFVmkegwbu92G8OJAwshMhpZhBdqKMs%2bjIf9%2byBBk%3d
+2025-03-14 10:39:46,971 - INFO - Response received: 200 in 1.80 seconds
+2025-03-14 10:40:32,366 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:40:34,282 - INFO - Response received: 200 in 1.92 seconds
+2025-03-14 10:40:34,348 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:40:37,706 - INFO - Response received: 200 in 3.36 seconds
+2025-03-14 10:40:38,932 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:40:40,576 - INFO - Response received: 200 in 1.64 seconds
+2025-03-14 10:40:45,378 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:40:48,194 - INFO - Response received: 200 in 2.82 seconds
+2025-03-14 10:40:49,582 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:40:51,278 - INFO - Response received: 200 in 1.70 seconds
+2025-03-14 10:40:51,279 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:40:52,917 - INFO - Response received: 200 in 1.64 seconds
+2025-03-14 10:40:52,917 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=b%2bY30QTNTqV%2b0QrvAeKbXFx3Ls67IGQ%2b6v6KFeck0gEHECvdl6AaWrnrWtvGL2aQfTekhFiY2JrdBZZKVEFnSgTy1tez9GUu0rlql0Rqd0YX9rE3VU1%2bLKm8po6j2xrVXg1b2rt1%2b3OQbAYwZZChPE10SrEBr30VuMBWyDyiLW4%3d
+2025-03-14 10:40:56,193 - INFO - Response received: 200 in 3.28 seconds
+2025-03-14 10:40:56,351 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:40:58,039 - INFO - Response received: 200 in 1.69 seconds
+2025-03-14 10:40:58,100 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:40:59,880 - INFO - Response received: 200 in 1.78 seconds
+2025-03-14 10:41:00,082 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:02,026 - INFO - Response received: 200 in 1.94 seconds
+2025-03-14 10:41:02,227 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:03,976 - INFO - Response received: 200 in 1.75 seconds
+2025-03-14 10:41:04,177 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:06,384 - INFO - Response received: 200 in 2.21 seconds
+2025-03-14 10:41:06,584 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:08,277 - INFO - Response received: 200 in 1.69 seconds
+2025-03-14 10:41:08,478 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:10,223 - INFO - Response received: 200 in 1.74 seconds
+2025-03-14 10:41:20,425 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:22,205 - INFO - Response received: 200 in 1.78 seconds
+2025-03-14 10:41:22,406 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:24,159 - INFO - Response received: 200 in 1.75 seconds
+2025-03-14 10:41:24,360 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:26,096 - INFO - Response received: 200 in 1.74 seconds
+2025-03-14 10:41:26,297 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:27,940 - INFO - Response received: 200 in 1.64 seconds
+2025-03-14 10:41:28,141 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:29,987 - INFO - Response received: 200 in 1.85 seconds
+2025-03-14 10:41:30,191 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:31,830 - INFO - Response received: 200 in 1.64 seconds
+2025-03-14 10:41:42,032 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:43,812 - INFO - Response received: 200 in 1.78 seconds
+2025-03-14 10:41:44,013 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:46,065 - INFO - Response received: 200 in 2.05 seconds
+2025-03-14 10:41:46,267 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:48,214 - INFO - Response received: 200 in 1.95 seconds
+2025-03-14 10:41:48,415 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:50,162 - INFO - Response received: 200 in 1.75 seconds
+2025-03-14 10:41:50,363 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:52,107 - INFO - Response received: 200 in 1.74 seconds
+2025-03-14 10:41:52,308 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:41:54,258 - INFO - Response received: 200 in 1.95 seconds
+2025-03-14 10:42:04,460 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:42:07,377 - INFO - Response received: 200 in 2.92 seconds
+2025-03-14 10:42:07,578 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:42:09,516 - INFO - Response received: 200 in 1.94 seconds
+2025-03-14 10:42:09,717 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/blsappointment/GetAvailableSlotsByDate
+2025-03-14 10:45:36,943 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:45:44,585 - INFO - Response received: 200 in 7.64 seconds
+2025-03-14 10:45:44,668 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/CaptchaPublic/GenerateCaptcha?data=e8HDbT%2b2LqOT3%2fkaQ9rl61xNmCBD6jS4wAfqix1qp3UUoonSdYnw6f%2f3sKAm8%2fH7iK8lDGQhlkue4t9y0dqd6R0u%2fo6sWuZLR%2fT%2bxl0QTdI%3d
+2025-03-14 10:46:26,473 - INFO - Response received: 200 in 41.81 seconds
+2025-03-14 10:46:27,293 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/CaptchaPublic/SubmitCaptcha
+2025-03-14 10:46:29,042 - INFO - Response received: 200 in 1.75 seconds
+2025-03-14 10:46:29,043 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/Account/LogIn
+2025-03-14 10:46:30,982 - INFO - Response received: 200 in 1.94 seconds
+2025-03-14 10:46:30,983 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:46:34,707 - INFO - Response received: 200 in 3.72 seconds
+2025-03-14 10:46:34,784 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/NewCaptcha/GenerateCaptcha
+2025-03-14 10:47:29,357 - INFO - Response received: 200 in 54.57 seconds
+2025-03-14 10:47:30,278 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/NewCaptcha/SubmitCaptcha
+2025-03-14 10:47:32,734 - INFO - Response received: 200 in 2.46 seconds
+2025-03-14 10:47:32,735 - INFO - Requesting: POST https://ita-pak.blsinternational.com/Global/bls/VisaTypeVerification
+2025-03-14 10:47:35,804 - INFO - Response received: 200 in 3.07 seconds
+2025-03-14 10:47:35,805 - INFO - Requesting: GET https://ita-pak.blsinternational.com/Global/bls/visatype?data=b%2bY30QTNTqV%2b0QrvAeKbXFx3Ls67IGQ%2b6v6KFeck0gEHECvdl6AaWrnrWtvGL2aQfTekhFiY2JrdBZZKVEFnSgTy1tez9GUu0rlql0Rqd0YX9rE3VU1%2bLKm8po6j2xrVUoht2EntyR13Vc0r4T%2b%2forzKDBvDcjGF3qw7w0tRdd8%3d
